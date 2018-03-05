@@ -1,0 +1,44 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero {
+  background-image: url("./assets/clem-onojeghuo-99399-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateZ(-5px) scale(8);
+  z-index: -1;
+  position: relative;
+}
+
+.heroPic1 {
+  background-image: url("./assets/davide-cantelli-139887-unsplash.jpg");
+}
+
+.heroPic2 {
+  background-image: url("./assets/nathan-anderson-291067-unsplash.jpg");
+}
+
+.parallax {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateZ(-0.5px) scale(1.5);
+  z-index: -1;
+  position: relative;
+}
