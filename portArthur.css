@@ -2,7 +2,11 @@
   background-color: white;
   margin: 0;
   font-size: 11px;
-  height: 100vh
+  height: 100vh;
+}
+
+.portWrapper {
+  padding: 5rem;
 }
 
 .axis path, .axis line {
