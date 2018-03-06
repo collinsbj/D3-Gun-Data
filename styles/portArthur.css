@@ -36,6 +36,12 @@
 
 #storyDescription {
   font-size: 1.2rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  line-height: 1.5
+}
+
+#storyTitle {
+  align-self: start;
 }
 
 .d3-slider {
@@ -131,4 +137,9 @@ text {
 
 .intro {
   padding: 1rem 0;
+}
+
+#slider3 {
+  display: flex;
+  justify-content: space-around;
 }
