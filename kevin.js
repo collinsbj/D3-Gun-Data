@@ -1,3 +1,5 @@
+console.log("first:", d3);
+
 //Select Listeners
 const form = document.getElementById("form");
 console.log('kevinsd3', d3)
@@ -71,55 +73,55 @@ function setData(event) {
       sizeData = [
         0,
         0.9015088013,
-1,
-0.6613579212,
-0.7585917854,
-0.3398994132,
-0.614417435,
-0.2015926236,
-0.4886839899,
-0.5498742666,
-0.6387259011,
-0.1936295054,
-0.6026823135,
-0.487845767,
-0.6299245599,
-0.3851634535,
-0.551969824,
-0.7292539816,
-0.8834870075,
-0.3872590109,
-0.4924559933,
-0.1487845767,
-0.5192791282,
-0.3281642917,
-0.8231349539,
-0.7870913663,
-0.7799664711,
-0.3759430008,
-0.7099748533,
-0.4145012573,
-0.2271584241,
-0.7711651299,
-0.1911148365,
-0.5821458508,
-0.4974853311,
-0.5498742666,
-0.8181056161,
-0.525146689,
-0.5096395641,
-0.1944677284,
-0.7527242246,
-0.5230511316,
-0.7233864208,
-0.5041911148,
-0.5083822297,
-0.5234702431,
-0.5226320201,
-0.3943839061,
-0.7598491199,
-0.4815590947,
-0.7229673093
+        1,
+        0.6613579212,
+        0.7585917854,
+        0.3398994132,
+        0.614417435,
+        0.2015926236,
+        0.4886839899,
+        0.5498742666,
+        0.6387259011,
+        0.1936295054,
+        0.6026823135,
+        0.487845767,
+        0.6299245599,
+        0.3851634535,
+        0.551969824,
+        0.7292539816,
+        0.8834870075,
+        0.3872590109,
+        0.4924559933,
+        0.1487845767,
+        0.5192791282,
+        0.3281642917,
+        0.8231349539,
+        0.7870913663,
+        0.7799664711,
+        0.3759430008,
+        0.7099748533,
+        0.4145012573,
+        0.2271584241,
+        0.7711651299,
+        0.1911148365,
+        0.5821458508,
+        0.4974853311,
+        0.5498742666,
+        0.8181056161,
+        0.525146689,
+        0.5096395641,
+        0.1944677284,
+        0.7527242246,
+        0.5230511316,
+        0.7233864208,
+        0.5041911148,
+        0.5083822297,
+        0.5234702431,
+        0.5226320201,
+        0.3943839061,
+        0.7598491199,
+        0.4815590947,
+        0.7229673093
       ];
       break;
     case "gunLaw":
@@ -243,55 +245,55 @@ function setData(event) {
       colorData = [
         0,
         1.798494983,
-1.994983278,
-1.319397993,
-1.513377926,
-0.6780936455,
-1.225752508,
-0.402173913,
-0.974916388,
-1.096989967,
-1.274247492,
-0.3862876254,
-1.202341137,
-0.9732441472,
-1.256688963,
-0.7683946488,
-1.101170569,
-1.454849498,
-1.762541806,
-0.7725752508,
-0.9824414716,
-0.2968227425,
-1.035953177,
-0.6546822742,
-1.642140468,
-1.570234114,
-1.556020067,
-0.75,
-1.41638796,
-0.8269230769,
-0.4531772575,
-1.538461538,
-0.381270903,
-1.161371237,
-0.9924749164,
-1.096989967,
-1.632107023,
-1.047658863,
-1.016722408,
-0.3879598662,
-1.501672241,
-1.043478261,
-1.443143813,
-1.005852843,
-1.014214047,
-1.044314381,
-1.04264214,
-0.7867892977,
-1.515886288,
-0.9607023411,
-1.442307692
+        1.994983278,
+        1.319397993,
+        1.513377926,
+        0.6780936455,
+        1.225752508,
+        0.402173913,
+        0.974916388,
+        1.096989967,
+        1.274247492,
+        0.3862876254,
+        1.202341137,
+        0.9732441472,
+        1.256688963,
+        0.7683946488,
+        1.101170569,
+        1.454849498,
+        1.762541806,
+        0.7725752508,
+        0.9824414716,
+        0.2968227425,
+        1.035953177,
+        0.6546822742,
+        1.642140468,
+        1.570234114,
+        1.556020067,
+        0.75,
+        1.41638796,
+        0.8269230769,
+        0.4531772575,
+        1.538461538,
+        0.381270903,
+        1.161371237,
+        0.9924749164,
+        1.096989967,
+        1.632107023,
+        1.047658863,
+        1.016722408,
+        0.3879598662,
+        1.501672241,
+        1.043478261,
+        1.443143813,
+        1.005852843,
+        1.014214047,
+        1.044314381,
+        1.04264214,
+        0.7867892977,
+        1.515886288,
+        0.9607023411,
+        1.442307692
       ];
       break;
     case "gunLawAverage":
@@ -353,7 +355,7 @@ function setData(event) {
       break;
   }
 
-  drawData(sizeData, colorData)
+  drawData(sizeData, colorData);
 
   // let states = document.querySelectorAll(".state");
 
@@ -369,23 +371,22 @@ function setData(event) {
 
 //Create SVG
 const svgMap = d3.select("#map-compare");
-console.log(svgMap)
+console.log(svgMap);
 const path = d3.geoPath();
-let geoData= null;
+let geoData = null;
 
 function getData() {
-  if(geoData) return geoData;
+  if (geoData) return geoData;
 
   geoData = new Promise((resolve, reject) => {
     d3.json("./us/10m.json", function(err, data) {
-      if (err) return reject(err)
-      resolve(data)
-    })
-  })
+      if (err) return reject(err);
+      resolve(data);
+    });
+  });
 
   return geoData;
 }
-
 
 function drawOutlines(data) {
   svgMap
@@ -411,58 +412,63 @@ function drawOutlines(data) {
     .attr("d", path(topojson.feature(data, data.objects.nation)));
 }
 
-getData()
-  .then(drawOutlines);
-
+getData().then(drawOutlines);
 
 function drawData(size, color) {
-    getData().then(data => {
+  getData().then(data => {
+    let states = document.querySelectorAll(".state");
 
-      let states = document.querySelectorAll(".state");
+    if (states.length > 0) {
+      svgMap.selectAll(".state").remove("path");
+    }
 
-      if(states.length > 0) {
-        svgMap
-          .selectAll(".state")
-          .remove("path")
-      }
+    svgMap
+      .selectAll(".state")
+      .data(topojson.feature(data, data.objects.states).features)
+      .enter()
+      .append("path")
+      .attr("class", "state")
+      .attr("d", path)
+      .attr("transform", function(d) {
+        var centroid = path.centroid(d),
+          x = centroid[0],
+          y = centroid[1];
+        return (
+          "translate(" +
+          x +
+          "," +
+          y +
+          ")" +
+          "scale(" +
+          Math.sqrt(size[d.id]) +
+          ")" +
+          "translate(" +
+          -x +
+          "," +
+          -y +
+          ")"
+        );
+      })
 
-      svgMap
-        .selectAll(".state")
-        .data(topojson.feature(data, data.objects.states).features)
-        .enter()
-        .append("path")
-        .attr("class", "state")
-        .attr("d", path)
-        .attr("transform", function(d) {
-          var centroid = path.centroid(d),
-            x = centroid[0],
-            y = centroid[1];
-          return (
-            "translate(" + x + "," + y +")"
-            + "scale(" + Math.sqrt(size[d.id]) +")"
-            + "translate(" + -x + "," + -y + ")"
-          );
-        })
-
-        .style("stroke-width", function(d) {
-          return 1 / Math.sqrt(size[d.id]);
-        })
-        .attr("id", function(d) {
-          return d.id;
-        })
-        .attr("fill", function(d) {
-          let rate = color[d.id];
-          if (rate < 0.6) {
-            return "#009933";
-          } else if (rate > 0.6 && rate < 0.9) {
-            return "#4CB824";
-          } else if (rate > 0.9 && rate < 1.1) {
-            return "#8CD117";
-          } else if (rate > 1.1 && rate < 1.6) {
-            return "#CCEB0A";
-          } else if (rate > 1.6) {
-            return "#FFFF00";
-          }
-        })
-    })
+      .style("stroke-width", function(d) {
+        return 1 / Math.sqrt(size[d.id]);
+      })
+      .attr("id", function(d) {
+        return d.id;
+      })
+      .attr("fill", function(d) {
+        let rate = color[d.id];
+        if (rate < 0.6) {
+          return "#009933";
+        } else if (rate > 0.6 && rate < 0.9) {
+          return "#4CB824";
+        } else if (rate > 0.9 && rate < 1.1) {
+          return "#8CD117";
+        } else if (rate > 1.1 && rate < 1.6) {
+          return "#CCEB0A";
+        } else if (rate > 1.6) {
+          return "#FFFF00";
+        }
+      });
+  });
 }

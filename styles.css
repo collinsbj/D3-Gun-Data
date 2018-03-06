@@ -35,9 +35,9 @@ section {
 footer {
   width: 90vw;
   margin: 0 auto;
-  padding-top: 1rem;
   padding-bottom: 2rem;
-  background-color: white;
+  background-color: #0d47a1;
+  color: darkgray;
 }
 
 #landing {
@@ -158,13 +158,9 @@ h2 {
   font-size: 40px;
 }
 
-h5 {
-  font-size: 30px;
-  margin: 1rem;
-}
-
-.title {
+.about {
   font-style: italic;
+  margin: 1rem;
 }
 
 #map-container {
@@ -256,7 +252,7 @@ h5 {
   font-size: 1.6rem;
   justify-self: center;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   color: #b38600;
 }
 
@@ -282,7 +278,7 @@ h5 {
   grid-row: 4/5;
   grid-column: 1/3;
   font-size: 1.2rem;
-  justify-self:  center;
+  justify-self: center;
   align-self: center;
   color: #b38600;
 }
@@ -300,7 +296,7 @@ h5 {
   grid-row: 6/7;
   grid-column: 1/3;
   font-size: 1.2rem;
-  justify-self:  center;
+  justify-self: center;
   align-self: center;
   color: #b38600;
 }
@@ -318,7 +314,7 @@ h5 {
   grid-row: 8/9;
   grid-column: 1/3;
   font-size: 1.2rem;
-  justify-self:  center;
+  justify-self: center;
   align-self: center;
   color: #b38600;
 }
@@ -336,7 +332,7 @@ h5 {
   grid-row: 10/11;
   grid-column: 1/3;
   font-size: 1.2rem;
-  justify-self:  center;
+  justify-self: center;
   align-self: center;
   color: #b38600;
 }
@@ -360,8 +356,8 @@ h5 {
   margin-right: 2rem;
 }
 #sources a {
-  font-size: .6rem;
-  margin: 0rem 0rem .4rem 0rem;
+  font-size: 0.6rem;
+  margin: 0rem 0rem 0.4rem 0rem;
   text-decoration: none;
   color: #b38600;
 }
@@ -374,7 +370,6 @@ h5 {
 .state:hover {
   fill: #b38600;
 }
-
 
 #groupInfo {
   height: auto;
@@ -397,14 +392,15 @@ h5 {
   text-align: center;
 }
 
-#groupInfo p,
-#groupInfo a {
-  margin: 0.2rem;
+.person a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 h5 {
   font-size: 45px;
-  margin: 1rem;
+  padding: 1rem;
+  background-color: #093981;
 }
 
 h6 {

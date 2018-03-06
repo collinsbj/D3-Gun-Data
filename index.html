@@ -4,18 +4,12 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./reset.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.min.css">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./portArthur.css">
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i" rel="stylesheet">
     <title>The Tipping Point</title>
-    <script type="text/javascript" src="circles.json"></script>
-    <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://unpkg.com/topojson-client@3"></script>
-    <script src="https://d3js.org/topojson.v2.min.js"></script>
 </head>
 
 <body>
@@ -72,102 +66,113 @@
         <section class="heroPic1 parallax">
         </section>
         <section id="ausUsStats">
-            <img src="./assets/joshua-earle-157231-unsplash.jpg" alt="">
+            <div id="chart"></div>
+            <button id="gunDeaths">Gun Deaths</button>
+            <button id="houseFirearms">Households with Firearms</button>
+            <button id="us">US</button>
+            <button id="aus">Australia</button>
         </section>
         <section class="heroPic2 parallax">
         </section>
         <section id="usMap">
-          <div id="map-container">
-            <h3>Comparing Gun Data Across the United States</h3>
-            <div id="select">
-              <form id="form">
-                <h4>Size of States</h4>
-                <select  name="size">
-                  <option value="">Select The Data</option>
-                  <option value="gunOwnership">Gun Ownership</option>
-                  <option value="deathRates">Gun Deaths Compared to Total</option>
-                  <option value="gunLaw">Gun Law Strictness</option>
-                </select>
-                <h4>Color of States</h4>
-                <select name="color">
-                  <option value="">Select The Data</option>
-                  <option value="gunOwnershipAverage">Gun Ownership</option>
-                  <option value="deathRatesAverage">Gun Deaths Compared to Total</option>
-                  <option value="gunLawAverage">Gun Law Strictness</option>
-                </select>
-                <input type="submit" value="Map It">
-              </form>
-            </div>
-            <svg id="map-compare" viewbox="0 0 960 600"></svg>
-            <div id="data">
-              <div id="state-data">
-                <h4 id="title-more-info">Take a Closer Look</h4>
+            <div id="map-container">
+                <h3>Comparing Gun Data Across the United States</h3>
+                <div id="select">
+                    <form id="form">
+                        <h4>Size of States</h4>
+                        <select name="size">
+                            <option value="">Select The Data</option>
+                            <option value="gunOwnership">Gun Ownership</option>
+                            <option value="deathRates">Gun Deaths Compared to Total</option>
+                            <option value="gunLaw">Gun Law Strictness</option>
+                        </select>
+                        <h4>Color of States</h4>
+                        <select name="color">
+                            <option value="">Select The Data</option>
+                            <option value="gunOwnershipAverage">Gun Ownership</option>
+                            <option value="deathRatesAverage">Gun Deaths Compared to Total</option>
+                            <option value="gunLawAverage">Gun Law Strictness</option>
+                        </select>
+                        <input type="submit" value="Map It">
+                    </form>
+                </div>
+                <svg id="map-compare" viewbox="0 0 960 600"></svg>
+                <div id="data">
+                    <div id="state-data">
+                        <h4 id="title-more-info">Take a Closer Look</h4>
 
-                <h5 id="name"> </h5>
+                        <h5 id="name"> </h5>
 
-                <img id="image" src="#" alt="">
+                        <img id="image" src="#" alt="">
 
-                <h5 id="gunOwners">Gun Ownership(% of total population):</h5>
-                <h5 id="gunOwners2"></h5>
-                <h5 id="deaths">Gun Death Rates(per 100,000):</h5>
-                <h5 id="deaths2"></h5>
-                <h5 id="grade">Giffords Law Center Gun Grade:</h5>
-                <h5 id="grade2"></h5>
-                <h5 id="rank">Guns & Ammo State Rank:</h5>
-                <h5 id="rank2"></h5>
-              </div>
-            </div>
-            <div id="keys">
-              <img src="./assets/keysize.jpg" alt="keysize">
-              <img src="./assets/keycolor.jpg" alt="keycolor">
-            </div>
-            <div id="sources">
-              <a href="http://www.vpc.org/state-firearm-death-rates-ranked-by-rate-2016/" target="_blank">State Firearm Death Rates 2016</a>
-              <a href="http://injuryprevention.bmj.com/content/injuryprev/early/2015/06/09/injuryprev-2015-041586.full.pdf?keytype=ref&ijkey=doj6vx0laFZMsQ2" target="_blank">Gun ownership and social gun culture</a>
-              <a href="http://www.gunsandammo.com/second-amendment/best-states-for-gun-owners-2017/" target="_blank">Guns & Ammo Best States for Gun Owners(2017)</a>
-              <a href="http://lawcenter.giffords.org/scorecard/" target="_blank">Giffords Law Center Annual Gun Law Scorecard(2017)</a>
-            </div>
+                        <h5 id="gunOwners">Gun Ownership(% of total population):</h5>
+                        <h5 id="gunOwners2"></h5>
+                        <h5 id="deaths">Gun Death Rates(per 100,000):</h5>
+                        <h5 id="deaths2"></h5>
+                        <h5 id="grade">Giffords Law Center Gun Grade:</h5>
+                        <h5 id="grade2"></h5>
+                        <h5 id="rank">Guns & Ammo State Rank:</h5>
+                        <h5 id="rank2"></h5>
+                    </div>
+                </div>
+                <div id="keys">
+                    <img src="./assets/keysize.jpg" alt="keysize">
+                    <img src="./assets/keycolor.jpg" alt="keycolor">
+                </div>
+                <div id="sources">
+                    <a href="http://www.vpc.org/state-firearm-death-rates-ranked-by-rate-2016/" target="_blank">State Firearm Death Rates 2016</a>
+                    <a href="http://injuryprevention.bmj.com/content/injuryprev/early/2015/06/09/injuryprev-2015-041586.full.pdf?keytype=ref&ijkey=doj6vx0laFZMsQ2"
+                        target="_blank">Gun ownership and social gun culture</a>
+                    <a href="http://www.gunsandammo.com/second-amendment/best-states-for-gun-owners-2017/" target="_blank">Guns & Ammo Best States for Gun Owners(2017)</a>
+                    <a href="http://lawcenter.giffords.org/scorecard/" target="_blank">Giffords Law Center Annual Gun Law Scorecard(2017)</a>
+                </div>
         </section>
         <section class="heroPic3 parallax">
         </section>
         <footer>
+            <h5>Developers</h5>
             <div id="groupInfo">
-                <h5>Developers</h5>
                 <div>
                     <div class="person">
-                        <h6>BJ</h6>
-                        <p class="title">Front End Developer | JavaScript Connoisseur</p>
-                        <a href="https://github.com/collinsbj">
-                            <img src="./assets/github.png" alt="">
-                        </a>
-                        <a href="https://www.linkedin.com/in/bjcollinswebdev/">
-                            <img src="./assets/linkedin.png" alt="">
-                        </a>
+                        <h6>BJ Collins</h6>
+                        <p class="about">Front End Developer | JavaScript Connoisseur</p>
+                        <div>
+                            <a href="https://github.com/collinsbj">
+                                <img src="./assets/github.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/bjcollinswebdev/">
+                                <img src="./assets/linkedin.png" alt="">
+                            </a>
+                        </div>
                     </div>
                     <div class="person">
-                        <h6>Emily</h6>
-                        <p class="title">tag line...</p>
-                        <a href="https://github.com/epancake">
-                            <img src="./assets/github.png" alt="">
-                        </a>
-                        <a href="https://www.linkedin.com/in/emilypancake/">
-                            <img src="./assets/linkedin.png" alt="">
-                        </a>
+                        <h6>Emily Pancake</h6>
+                        <p class="about">tag line...</p>
+                        <div>
+                            <a href="https://github.com/epancake">
+                                <img src="./assets/github.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/emilypancake/">
+                                <img src="./assets/linkedin.png" alt="">
+                            </a>
+                        </div>
                     </div>
                     <div class="person">
-                        <h6>Kevin</h6>
-                        <p class="title">Front End Developer</p>
-                        <a href="https://github.com/kmkingdon">
-                            <img src="./assets/github.png" alt="">
-                        </a>
-                        <a href="https://www.linkedin.com/in/kevin-kingdon/">
-                            <img src="./assets/linkedin.png" alt="">
-                        </a>
+                        <h6>Kevin Kingdon</h6>
+                        <p class="about">Web Developer | Educator | Artist</p>
+                        <div>
+                            <a href="https://github.com/kmkingdon">
+                                <img src="./assets/github.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/kevin-kingdon/">
+                                <img src="./assets/linkedin.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="poweredBy">
-                <h5>Powered by</h6>
+            <h5>Powered by</h6>
+                <div id="poweredBy">
                     <div>
                         <img src="./assets/d3img.png" alt="D3.js">
                         <img src="./assets/leaflet.png" alt="Leaflet">
@@ -175,27 +180,34 @@
                         <img src="./assets/topoJSON.png" alt="topoJSON">
                         <img src="./assets/snapSVG.png" alt="snapSVG">
                     </div>
-            </div>
-            <div id="sources">
+                </div>
                 <h5>Sources</h5>
-                <ul>
-                    <li>Source #1</li>
-                    <li>Source #2</li>
-                    <li>Source #3</li>
-                    <li>Source #4</li>
-                    <li>Source #5</li>
-                    <li>Source #6</li>
-                    <li>Source #7</li>
-                </ul>
-            </div>
+                <div id="sources">
+                    <ul>
+                        <li>Source #1</li>
+                        <li>Source #2</li>
+                        <li>Source #3</li>
+                        <li>Source #4</li>
+                        <li>Source #5</li>
+                        <li>Source #6</li>
+                        <li>Source #7</li>
+                    </ul>
+                </div>
         </footer>
     </main>
 
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
-<script src="./svg.js"></script>
+<script type="text/javascript" src="circles.json"></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.min.js"></script>
 <script src="./app.js"></script>
 <script src="./portMap.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://unpkg.com/topojson-client@3"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+<script src="./svg.js"></script>
 <script type="text/javascript" src="./kevin.js"></script>
 <script type="text/javascript" src="./info.js"></script>
 
