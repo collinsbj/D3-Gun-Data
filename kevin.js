@@ -2,6 +2,7 @@ console.log("first:", d3);
 
 //Select Listeners
 const form = document.getElementById("form");
+console.log('kevinsd3', d3)
 
 let sizeData;
 let colorData;

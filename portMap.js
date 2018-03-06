@@ -8,7 +8,7 @@ L.tileLayer(
     attribution: "&copy; " + mapLink + " Contributors",
     maxZoom: 18,
   }).addTo(map);
-let currentCircleId
+let currentCircleId = 0
 let circlePos = 0
 
 /* Initialize the SVG layer */
