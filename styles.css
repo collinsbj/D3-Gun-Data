@@ -16,6 +16,13 @@ section {
   width: 100vw;
 }
 
+footer {
+  width: 90vw;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
 .hero {
   background-image: url("./assets/clem-onojeghuo-99399-unsplash.jpg");
   background-position: center;
@@ -34,6 +41,10 @@ section {
   background-image: url("./assets/nathan-anderson-291067-unsplash.jpg");
 }
 
+.heroPic3 {
+  background-image: url("./assets/austin-prock-316062-unsplash.jpg");
+}
+
 .parallax {
   background-position: center;
   background-repeat: no-repeat;
@@ -41,4 +52,69 @@ section {
   transform: translateZ(-0.5px) scale(1.5);
   z-index: -1;
   position: relative;
+}
+
+.hero div {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 30px;
+  margin: 1rem;
+}
+
+.quote {
+  font-style: italic;
+}
+
+#groupInfo {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+
+#groupInfo div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#groupInfo p,
+#groupInfo a {
+  margin: 0.2rem;
+}
+
+h6 {
+  font-size: 45px;
+  margin: 1rem;
+}
+
+#poweredBy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#poweredBy div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
