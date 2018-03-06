@@ -2,8 +2,16 @@ body {
   font-family: "Crete Round", serif;
 }
 
-h2 {
+h3 {
   font-size: 4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
 }
 
 section img {
