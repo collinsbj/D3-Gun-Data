@@ -449,36 +449,35 @@ const stateDataObj = [
     gunGrade: "F",
     gunGradePro: "17/50"
   }
-]
+];
 
-const stateData = document.getElementById('state-data')
+const stateData = document.getElementById("state-data");
 
-const svgObject = document.getElementById('map-compare');
+const svgObject = document.getElementById("map-compare");
 svgObject.addEventListener("click", showStats);
 
 function showStats(event) {
-  let id = parseInt(event.target.id)
+  let id = parseInt(event.target.id);
 
   stateDataObj.forEach(state => {
-
-    if(state.id === id) {
-      let name = document.getElementById('name');
+    if (state.id === id) {
+      let name = document.getElementById("name");
       name.innerHTML = state.state;
 
-      let image = document.getElementById('image');
+      let image = document.getElementById("image");
       image.src = state.img;
 
-      let owners = document.getElementById('gunOwners2');
+      let owners = document.getElementById("gunOwners2");
       owners.innerHTML = state.gunOwnership;
 
-      let deaths = document.getElementById('deaths2');
+      let deaths = document.getElementById("deaths2");
       deaths.innerHTML = state.gunDeath;
 
-      let grade = document.getElementById('grade2');
+      let grade = document.getElementById("grade2");
       grade.innerHTML = state.gunGrade;
 
-      let rank = document.getElementById('rank2');
+      let rank = document.getElementById("rank2");
       rank.innerHTML = state.gunGradePro;
     }
-  })
+  });
 }

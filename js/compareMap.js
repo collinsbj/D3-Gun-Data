@@ -353,7 +353,6 @@ function setData(event) {
   }
 
   drawData(sizeData, colorData);
-
 }
 
 //Create SVG

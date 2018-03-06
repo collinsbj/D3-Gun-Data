@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.min.css">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./portArthur.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/portArthur.css">
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i" rel="stylesheet">
     <title>The Tipping Point</title>
@@ -50,11 +50,13 @@
                     <aside id="storyCard">
                         <h4 id="storyTitle"></h4>
                         <div id="storyDescription">
-                          <p>Move the slider forward to let the story unfold.</p>
-                          <h4>Martin Bryant, Murderer</h4>
-                          <p>
-                            Martin Bryant, the Port Arthur Massacre Killer. Bryant's close friend and heiress to a lottery fortune had recently died and left him with his home. His father had also recently died of unnatural causes.Mrs. He is beleived to have an IQ of 166.
-                          </p>
+                            <p>Move the slider forward to let the story unfold.</p>
+                            <h4>Martin Bryant, Murderer</h4>
+                            <p>
+                                Martin Bryant, the Port Arthur Massacre Killer. Bryant's close friend and heiress to a lottery fortune had recently died
+                                and left him with his home. His father had also recently died of unnatural causes.Mrs. He
+                                is beleived to have an IQ of 166.
+                            </p>
                         </div>
                         <image id="storyImage1" class="storyImage" src="./assets/portArthur/mBryant.jpeg"></image>
                         <image id="storyImage2" class="storyImage" src=""></image>
@@ -197,20 +199,19 @@
     </main>
 
 </body>
-<script type="text/javascript" src="circles.json"></script>
+<script type="text/javascript" src="./js/circles.json"></script>
 <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.min.js"></script>
-<script src="./app.js"></script>
-<script src="./portMap.js"></script>
-<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+<script src="./js/ausUsStats.js"></script>
+<script src="./js/portMap.js"></script>
 <script src="https://d3js.org/d3-array.v1.min.js"></script>
 <script src="https://d3js.org/d3-geo.v1.min.js"></script>
 <script src="https://unpkg.com/topojson-client@3"></script>
 <script src="https://d3js.org/topojson.v2.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
-<script src="./svg.js"></script>
-<script type="text/javascript" src="./kevin.js"></script>
-<script type="text/javascript" src="./info.js"></script>
+<script src="./js/svg.js"></script>
+<script type="text/javascript" src="./js/compareMap.js"></script>
+<script type="text/javascript" src="./js/info.js"></script>
 
 </html>

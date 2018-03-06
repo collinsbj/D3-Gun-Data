@@ -1,7 +1,3 @@
-//BJ's Chart
-
-console.log("second", d3);
-
 var chart = c3.generate({
   bindto: "#chart",
   data: {
@@ -238,5 +234,3 @@ document.querySelector("#aus").addEventListener("click", function() {
     }
   );
 });
-
-// End
