@@ -204,7 +204,7 @@ h5 {
 #form input {
   margin-left: 2rem;
   font-size: 1.5rem;
-  background-color: teal;
+  background-color: #b38600;
   color: white;
   padding: 0rem 1rem;
 }
@@ -227,14 +227,14 @@ h5 {
 
 #state-data {
   width: 23vw;
-  height: 55vh;
+  height: 60vh;
   border: solid black 1px;
   display: grid;
-  grid-template-columns: 13vw 10vw;
-  grid-template-rows: 5vh 14vh 9vh 9vh 9vh;
+  grid-template-columns: 15vw 8vw;
+  grid-template-rows: 5vh 13vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh;
 }
 
-#title {
+#title-more-info {
   grid-row: 1/2;
   grid-column: 1/3;
   font-size: 1.7rem;
@@ -245,10 +245,11 @@ h5 {
 #name {
   grid-row: 2/3;
   grid-column: 1/2;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   justify-self: center;
   align-self: center;
   margin-left: .5rem;
+  color: #b38600;
 }
 
 #image {
@@ -256,8 +257,8 @@ h5 {
   grid-column: 2/3;
   justify-self: center;
   align-self: center;
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 #gunOwners {
@@ -269,16 +270,16 @@ h5 {
   margin-left: .5rem;
 }
 
-#deaths {
+#gunOwners2 {
   grid-row: 4/5;
   grid-column: 1/3;
   font-size: 1.2rem;
-  justify-self: start;
+  justify-self:  center;
   align-self: center;
-  margin-left: .5rem;
+  color: #b38600;
 }
 
-#grade {
+#deaths {
   grid-row: 5/6;
   grid-column: 1/3;
   font-size: 1.2rem;
@@ -287,13 +288,49 @@ h5 {
   margin-left: .5rem;
 }
 
-#rank {
+#deaths2 {
   grid-row: 6/7;
+  grid-column: 1/3;
+  font-size: 1.2rem;
+  justify-self:  center;
+  align-self: center;
+  color: #b38600;
+}
+
+#grade {
+  grid-row: 7/8;
   grid-column: 1/3;
   font-size: 1.2rem;
   justify-self: start;
   align-self: center;
   margin-left: .5rem;
+}
+
+#grade2 {
+  grid-row: 8/9;
+  grid-column: 1/3;
+  font-size: 1.2rem;
+  justify-self:  center;
+  align-self: center;
+  color: #b38600;
+}
+
+#rank {
+  grid-row: 9/10;
+  grid-column: 1/3;
+  font-size: 1.2rem;
+  justify-self: start;
+  align-self: center;
+  margin-left: .5rem;
+}
+
+#rank2 {
+  grid-row: 10/11;
+  grid-column: 1/3;
+  font-size: 1.2rem;
+  justify-self:  center;
+  align-self: center;
+  color: #b38600;
 }
 
 #keys {
@@ -311,16 +348,25 @@ h5 {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  margin-right: 2rem;
+}
+#sources a {
+  font-size: .6rem;
+  margin: 0rem 0rem .4rem 0rem;
+  text-decoration: none;
+  color: #b38600;
 }
 
 #keys img {
-  height: 85%;
+  height: 75%;
+  width: 40%;
 }
 
 .state:hover {
-  fill: red;
+  fill: #b38600;
 }
+
 
 #groupInfo {
   height: auto;

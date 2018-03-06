@@ -469,17 +469,17 @@ function showStats(event) {
       let image = document.getElementById('image');
       image.src = state.img;
 
-      let owners = document.getElementById('gunOwners');
-      owners.innerHTML = `Gun Ownership(% of total population): ${state.gunOwnership}`;
+      let owners = document.getElementById('gunOwners2');
+      owners.innerHTML = state.gunOwnership;
 
-      let deaths = document.getElementById('deaths');
-      deaths.innerHTML = `Gun Death Rates(per 100,000): ${state.gunDeath}`;
+      let deaths = document.getElementById('deaths2');
+      deaths.innerHTML = state.gunDeath;
 
-      let grade = document.getElementById('grade');
-      grade.innerHTML = `Giffords Law Center Gun Grade: ${state.gunGrade}`;
+      let grade = document.getElementById('grade2');
+      grade.innerHTML = state.gunGrade;
 
-      let rank = document.getElementById('rank');
-      rank.innerHTML = `Guns & Ammo State Rank: ${state.gunGradePro}`;
+      let rank = document.getElementById('rank2');
+      rank.innerHTML = state.gunGradePro;
     }
   })
 }
