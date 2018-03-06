@@ -124,15 +124,15 @@ footer {
 }
 
 .heroPic1 {
-  background-image: url("./assets/portarther.jpg");
+  background-image: url("../assets/portarther.jpg");
 }
 
 .heroPic2 {
-  background-image: url("./assets/guns.jpg");
+  background-image: url("../assets/guns.jpg");
 }
 
 .heroPic3 {
-  background-image: url("./assets/parkland.jpg");
+  background-image: url("../assets/parkland.jpg");
 }
 
 .parallax {
