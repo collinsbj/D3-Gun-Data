@@ -15,8 +15,8 @@ h4 {
 
 p {
   font-size: 1.2rem;
-  font-family: 'PT Sans Narrow', sans-serif;
-  line-height: 1.5
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 1.5;
 }
 
 section img {
@@ -128,8 +128,18 @@ footer {
 }
 
 #chart {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
+}
+
+.chartButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.chartButtons button {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .heroPic1 {

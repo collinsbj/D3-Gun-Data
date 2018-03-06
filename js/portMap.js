@@ -19,7 +19,7 @@ var svg = d3.select("#map").select("svg"),
 g = svg.append("g");
 
 
-d3.json("./circles.json", function(collection) {
+d3.json("js/circles.json", function(collection) {
   /* Add a LatLng object to each item in the dataset */
   collection.objects.forEach(function(d) {
     d.LatLng = new L.LatLng(d.circle.coordinates[0],
@@ -172,7 +172,7 @@ function brushend() {
  }
 
 function handleBrushing(sliderPosition) {
-  d3.json("./circles.json", function(collection) {
+  d3.json("js/circles.json", function(collection) {
     collection.objects.forEach(function(d) {
       if (d.circle.id === sliderPosition) {
         document.getElementById("storyTitle").innerHTML = d.circle.title
@@ -201,7 +201,7 @@ function addBtn () {
 
 function moveToNext () {
   console.log("currentCircleId", currentCircleId)
-  d3.json("./circles.json", function(collection) {
+  d3.json("js/circles.json", function(collection) {
     collection.objects.forEach(function(d) {
       if (d.circle.id === currentCircleId + 1) {
         map.setView(d.circle.coordinates, d.circle.zoom)
