@@ -32,31 +32,88 @@ footer {
   background-color: white;
 }
 
-.hero {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: translateZ(-5px) scale(8);
-  z-index: -1;
-  position: relative;
+#landing {
+  width: 100vw;
+  height: 100vh;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1000;
+}
+
+#video video {
+  width: 100vw;
+  height: 100vh;
+  -webkit-transform: scaleX(1.5);
+  -moz-transform: scaleX(1.5);
 }
 
 #logo-container {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 1000;
+  z-index: 500;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
 
-#video {
-  position: fixed;
-  z-index: -1000;
+#title {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1000;
+  display: grid;
+  grid-template-rows: 25% 25% 25%;
+  grid-template-columns: 50% 50%;
 }
 
+#first-title {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  justify-self: end;
+  align-self: center;
+  font-size: 9rem;
+  margin-right: 4rem;
+}
+
+#second-title {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: end;
+  align-self: center;
+  font-size: 9rem;
+  margin-right: 4rem;
+}
+
+#third-title {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  justify-self: end;
+  align-self: center;
+  font-size: 9rem;
+  margin-right: 4rem;
+}
+
+<<<<<<< HEAD
+=======
+#subtitle {
+  grid-row: 3/5;
+  grid-column: 1/2;
+  justify-self: center;
+  align-self: center;
+  text-align: left;
+  font-size: 4rem;
+  margin-left: 4rem;
+  color: hsl(0, 0%, 85%);
+}
+
+
+>>>>>>> 3762f6d9c1baa284981656c0eebe8700ab82b40b
 .heroPic1 {
   background-image: url("./assets/portarther.jpg");
 }
@@ -66,7 +123,7 @@ footer {
 }
 
 .heroPic3 {
-  background-image: url("./assets/austin-prock-316062-unsplash.jpg");
+  background-image: url("./assets/parkland.jpg");
 }
 
 .parallax {
@@ -104,6 +161,169 @@ h5 {
 
 .title {
   font-style: italic;
+}
+
+#map-container {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 70vw 30vw;
+  grid-template-rows: 10vh 10vh 65vh 15vh;
+}
+
+#map-container h3 {
+  grid-row: 1/2;
+  grid-column: 1/3;
+  font-size: 3rem;
+  justify-self: center;
+  align-self: center;
+}
+
+#select {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-self: center;
+}
+
+#form{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-self: center;
+}
+
+#form h4 {
+  margin: 0rem 2rem;
+  font-size: 1.4rem;
+}
+
+#form select {
+  font-size: 1rem;
+}
+
+#form input {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  background-color: teal;
+  color: white;
+  padding: 0rem 1rem;
+}
+
+#map-compare {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  justify-self: center;
+  align-self: center;
+  width: 68vw;
+  height: 63vh;
+}
+
+#data {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  justify-self: center;
+  align-self: center;
+}
+
+#state-data {
+  width: 23vw;
+  height: 55vh;
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: 13vw 10vw;
+  grid-template-rows: 5vh 14vh 9vh 9vh 9vh;
+}
+
+#title {
+  grid-row: 1/2;
+  grid-column: 1/3;
+  font-size: 1.7rem;
+  justify-self: center;
+  align-self: center;
+}
+
+#name {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  font-size: 1.7rem;
+  justify-self: center;
+  align-self: center;
+  margin-left: .5rem;
+}
+
+#image {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+  align-self: center;
+  width: 5rem;
+  height: 5rem;
+}
+
+#gunOwners {
+  grid-row: 3/4;
+  grid-column: 1/3;
+  font-size: 1.2rem;
+  justify-self: start;
+  align-self: center;
+  margin-left: .5rem;
+}
+
+#deaths {
+  grid-row: 4/5;
+  grid-column: 1/3;
+  font-size: 1.2rem;
+  justify-self: start;
+  align-self: center;
+  margin-left: .5rem;
+}
+
+#grade {
+  grid-row: 5/6;
+  grid-column: 1/3;
+  font-size: 1.2rem;
+  justify-self: start;
+  align-self: center;
+  margin-left: .5rem;
+}
+
+#rank {
+  grid-row: 6/7;
+  grid-column: 1/3;
+  font-size: 1.2rem;
+  justify-self: start;
+  align-self: center;
+  margin-left: .5rem;
+}
+
+#keys {
+  grid-row: 4/5;
+  grid-column: 1/2;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#sources {
+  grid-row: 4/5;
+  grid-column: 2/3;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#keys img {
+  height: 85%;
+}
+
+.state:hover {
+  fill: red;
 }
 
 #groupInfo {
