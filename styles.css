@@ -1,12 +1,12 @@
 body {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 h2 {
   font-size: 4rem;
 }
 
-img {
+section img {
   width: 100%;
   height: auto;
 }
@@ -29,6 +29,7 @@ footer {
   margin: 0 auto;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  background-color: white;
 }
 
 #landing {
@@ -109,7 +110,6 @@ footer {
   color: hsl(0, 0%, 85%);
 }
 
-
 .heroPic1 {
   background-image: url("./assets/portarther.jpg");
 }
@@ -155,7 +155,7 @@ h5 {
   margin: 1rem;
 }
 
-.quote {
+.title {
   font-style: italic;
 }
 
@@ -185,7 +185,7 @@ h5 {
   align-self: center;
 }
 
-#form{
+#form {
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -248,8 +248,12 @@ h5 {
   font-size: 1.6rem;
   justify-self: center;
   align-self: center;
+<<<<<<< HEAD
   margin-left: .5rem;
   color: #b38600;
+=======
+  margin-left: 0.5rem;
+>>>>>>> e93f50db654a21ee3ab5c683f8ff675870faea01
 }
 
 #image {
@@ -267,7 +271,7 @@ h5 {
   font-size: 1.2rem;
   justify-self: start;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #gunOwners2 {
@@ -285,7 +289,7 @@ h5 {
   font-size: 1.2rem;
   justify-self: start;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #deaths2 {
@@ -303,7 +307,7 @@ h5 {
   font-size: 1.2rem;
   justify-self: start;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #grade2 {
@@ -321,7 +325,7 @@ h5 {
   font-size: 1.2rem;
   justify-self: start;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #rank2 {
@@ -371,16 +375,22 @@ h5 {
 #groupInfo {
   height: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: white;
+  flex-direction: column;
+  align-items: center;
 }
 
-#groupInfo div {
+#groupInfo > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.person {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 2rem 0;
 }
 
 #groupInfo p,
@@ -388,9 +398,13 @@ h5 {
   margin: 0.2rem;
 }
 
-h6 {
+h5 {
   font-size: 45px;
   margin: 1rem;
+}
+
+h6 {
+  font-size: 30px;
 }
 
 #poweredBy {
@@ -403,4 +417,19 @@ h6 {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+#poweredBy img,
+.person img {
+  height: 3rem;
+}
+
+#sources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  margin: 0.2rem;
 }
