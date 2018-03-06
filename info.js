@@ -457,8 +457,7 @@ const svgObject = document.getElementById('map-compare');
 svgObject.addEventListener("click", showStats);
 
 function showStats(event) {
-
-  let id = parseInt(event.path[0].id)
+  let id = parseInt(event.target.id)
 
   stateDataObj.forEach(state => {
 
