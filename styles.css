@@ -99,8 +99,6 @@ footer {
   margin-right: 4rem;
 }
 
-<<<<<<< HEAD
-=======
 #subtitle {
   grid-row: 3/5;
   grid-column: 1/2;
@@ -112,8 +110,6 @@ footer {
   color: hsl(0, 0%, 85%);
 }
 
-
->>>>>>> 3762f6d9c1baa284981656c0eebe8700ab82b40b
 .heroPic1 {
   background-image: url("./assets/portarther.jpg");
 }
@@ -189,7 +185,7 @@ h5 {
   align-self: center;
 }
 
-#form{
+#form {
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -252,7 +248,7 @@ h5 {
   font-size: 1.7rem;
   justify-self: center;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #image {
@@ -270,7 +266,7 @@ h5 {
   font-size: 1.2rem;
   justify-self: start;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #deaths {
@@ -279,7 +275,7 @@ h5 {
   font-size: 1.2rem;
   justify-self: start;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #grade {
@@ -288,7 +284,7 @@ h5 {
   font-size: 1.2rem;
   justify-self: start;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #rank {
@@ -297,7 +293,7 @@ h5 {
   font-size: 1.2rem;
   justify-self: start;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 #keys {
