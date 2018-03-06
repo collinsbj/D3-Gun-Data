@@ -1,8 +1,5 @@
-console.log("first:", d3);
-
 //Select Listeners
 const form = document.getElementById("form");
-console.log('kevinsd3', d3)
 
 let sizeData;
 let colorData;
@@ -356,22 +353,10 @@ function setData(event) {
   }
 
   drawData(sizeData, colorData);
-
-  // let states = document.querySelectorAll(".state");
-
-  // if(states.length > 0) {
-  //   for (var i = 0; i < states.length; i++) {
-  //     states[i].setAttribute("d" , "")
-  //   }
-  //   drawData(sizeData, colorData)
-  // } else {
-  //   drawData(sizeData, colorData)
-  // }
 }
 
 //Create SVG
 const svgMap = d3.select("#map-compare");
-console.log(svgMap);
 const path = d3.geoPath();
 let geoData = null;
 

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Karma');
+
 body {
-  font-family: "Crete Round", serif;
+  font-family: "Karma", serif;
 }
 
 h3 {
@@ -166,6 +168,10 @@ h2 {
   margin: 1rem;
 }
 
+#ausUsStats {
+  background-color: white;
+}
+
 #map-container {
   background-color: white;
   width: 100vw;
@@ -211,7 +217,7 @@ h2 {
 #form input {
   margin-left: 2rem;
   font-size: 1.5rem;
-  background-color: #b38600;
+  background-color: #0d47a1;
   color: white;
   padding: 0rem 1rem;
 }
@@ -255,8 +261,8 @@ h2 {
   font-size: 1.6rem;
   justify-self: center;
   align-self: center;
-  margin-left: 0.5rem;
-  color: #b38600;
+  margin-left: .5rem;
+  color: #0d47a1;
 }
 
 #image {
@@ -283,7 +289,8 @@ h2 {
   font-size: 1.2rem;
   justify-self: center;
   align-self: center;
-  color: #b38600;
+  color: #0d47a1;
+  font-size: 1.5rem;
 }
 
 #deaths {
@@ -301,7 +308,8 @@ h2 {
   font-size: 1.2rem;
   justify-self: center;
   align-self: center;
-  color: #b38600;
+  color: #0d47a1;
+  font-size: 1.5rem;
 }
 
 #grade {
@@ -319,7 +327,8 @@ h2 {
   font-size: 1.2rem;
   justify-self: center;
   align-self: center;
-  color: #b38600;
+  color: #0d47a1;
+  font-size: 1.5rem;
 }
 
 #rank {
@@ -337,7 +346,8 @@ h2 {
   font-size: 1.2rem;
   justify-self: center;
   align-self: center;
-  color: #b38600;
+  color: #0d47a1;
+  font-size: 1.5rem;
 }
 
 #keys {
@@ -356,22 +366,25 @@ h2 {
   flex-flow: column;
   justify-content: center;
   align-items: flex-end;
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
+
 #sources a {
-  font-size: 0.6rem;
-  margin: 0rem 0rem 0.4rem 0rem;
+  width: 100%;
+  font-size: .6rem;
+  margin: 0rem 0rem .4rem 0rem;
   text-decoration: none;
-  color: #b38600;
+  text-align: right;
+  color: #0d47a1;
 }
 
 #keys img {
   height: 75%;
-  width: 40%;
+  width: 35%;
 }
 
 .state:hover {
-  fill: #b38600;
+  fill: #0d47a1;
 }
 
 #groupInfo {
