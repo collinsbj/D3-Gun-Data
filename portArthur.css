@@ -6,7 +6,7 @@
 }
 
 .portWrapper {
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .axis path, .axis line {
@@ -18,15 +18,24 @@
 .storyMap {
   display: flex;
   justify-content: space-around;
+  padding-top: 1.5rem;
 }
 
 .storyImage {
   width: 20rem;
 }
 
-aside {
+#storyCard {
   width: 40vw;
-  margin: 3rem;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#storyDescription {
+  font-size: 1.2rem;
 }
 
 .d3-slider {
@@ -114,4 +123,12 @@ aside {
     left: -.25em;
     margin-left: 0;
     margin-bottom: -.6em;
+}
+
+text {
+  font-size: 1rem;
+}
+
+.intro {
+  padding: 1rem 0;
 }
