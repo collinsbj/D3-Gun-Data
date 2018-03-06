@@ -4,7 +4,7 @@
       "coordinates":[-43.001533, 147.651459],
       "id":0,
       "color": "black",
-      "description":"Bryant's close friend and heiress to a lottery fortune had recently died and left him with his home. His father had also recently died of unnatural causes.Mrs. He is beleived to have an IQ of 166.",
+      "description":"Bryant's close friend and heiress to a lottery fortune had recently died and left him with his home. His father had also recently died of unnatural causes. He is beleived to have an IQ of 166.",
       "image1":"./assets/portArthur/mBryant.jpeg",
       "image2":"",
       "zoom":"10"
@@ -93,7 +93,7 @@
     }
   },
   {"circle":
-    {"title": "Port Arthur Historic Site Parking Lot",
+    {"title": "Historic Site Parking Lot",
       "coordinates":[-43.145248,147.851295],
       "id":8,
       "color": "rgb(86, 102, 242)",
