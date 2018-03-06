@@ -1,5 +1,5 @@
-var svg = document.getElementById("logo");
-var s = Snap(svg);
+var svgLogo = document.getElementById("logo");
+var s = Snap(svgLogo);
 var aussie = Snap.select('#australia');
 var america = Snap.select('#usa');
 

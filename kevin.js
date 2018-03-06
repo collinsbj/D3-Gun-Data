@@ -367,7 +367,8 @@ function setData(event) {
 }
 
 //Create SVG
-const svg = d3.select("svg");
+const svgMap = d3.select("#map-compare");
+console.log(svgMap)
 const path = d3.geoPath();
 let geoData= null;
 
@@ -386,7 +387,7 @@ function getData() {
 
 
 function drawOutlines(data) {
-  svg
+  svgMap
     .append("path")
     .attr("stroke", "#aaa")
     .attr("stroke-width", 0.5)
@@ -401,7 +402,7 @@ function drawOutlines(data) {
       )
     );
 
-  svg
+  svgMap
     .append("path")
     .attr("stroke", "#aaa")
     .attr("stroke-width", 0.5)
@@ -419,12 +420,12 @@ function drawData(size, color) {
       let states = document.querySelectorAll(".state");
 
       if(states.length > 0) {
-        svg
+        svgMap
           .selectAll(".state")
           .remove("path")
       }
 
-      svg
+      svgMap
         .selectAll(".state")
         .data(topojson.feature(data, data.objects.states).features)
         .enter()
