@@ -4,8 +4,14 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./reset.css">
+
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./portArthur.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css">
     <title>The Tipping Point</title>
+    <script type="text/javascript" src="circles.json"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 
 <body>
@@ -13,7 +19,20 @@
         <section class="hero">
         </section>
         <section id="portMap">
-            <img src="./assets/austin-prock-316062-unsplash.jpg" alt="">
+          <h2>The Port Arthur Massacre</h2>
+          <p>
+            In 1996, Martin Bryant armed himself with xxx guns, and set about on a shooting spree that killed 35 people in Port Arthur, a town in Tasmania, Australia. He traveled from his home to 5 different locations where he shot and killed innocent men, women, and children along the way. This is a map of the chronology of that day.
+          </p>
+          <div id="slider3"></div>
+          <div class="storyMap">
+            <aside id="storyCard">
+              <h4 id="storyTitle"></h4>
+              <div id="storyDescription">Move the slider forward to let the story unfold.</div>
+              <image id="storyImage1" class="storyImage" src=""></image>
+              <image id="storyImage2" class="storyImage" src=""></image>
+            </aside>
+            <div id="map" style="width: 55vw; height: 65vh; margin-right: 3rem"></div>
+          </div>
         </section>
         <section class="heroPic1 parallax">
         </section>
@@ -32,5 +51,6 @@
     </main>
 </body>
 <script src="./app.js"></script>
+<script src="./portMap.js"></script>
 
 </html>
