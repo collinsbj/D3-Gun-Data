@@ -2,7 +2,7 @@ const stateDataObj = [
   {
     id: 1,
     state: "Alabama",
-    img: "./states/1.png",
+    img: "./assets/states/1.png",
     gunOwnership: "48.9%",
     gunDeath: "21.51",
     gunGrade: "F",
@@ -11,7 +11,7 @@ const stateDataObj = [
   {
     id: 2,
     state: "Alaska",
-    img: "./states/2.png",
+    img: "./assets/states/2.png",
     gunOwnership: "61.7%",
     gunDeath: "23.86",
     gunGrade: "F",
@@ -20,7 +20,7 @@ const stateDataObj = [
   {
     id: 3,
     state: "Arizona",
-    img: "./states/3.png",
+    img: "./assets/states/3.png",
     gunOwnership: "32.3%",
     gunDeath: "15.78",
     gunGrade: "F",
@@ -29,7 +29,7 @@ const stateDataObj = [
   {
     id: 4,
     state: "Arkansas",
-    img: "./states/4.png",
+    img: "./assets/states/4.png",
     gunOwnership: "57.9%",
     gunDeath: "18.1",
     gunGrade: "F",
@@ -38,7 +38,7 @@ const stateDataObj = [
   {
     id: 5,
     state: "California",
-    img: "./states/5.png",
+    img: "./assets/states/5.png",
     gunOwnership: "20.1%",
     gunDeath: "8.11",
     gunGrade: "A",
@@ -47,7 +47,7 @@ const stateDataObj = [
   {
     id: 6,
     state: "Colorado",
-    img: "./states/6.png",
+    img: "./assets/states/6.png",
     gunOwnership: "34.2%",
     gunDeath: "14.66",
     gunGrade: "C",
@@ -56,7 +56,7 @@ const stateDataObj = [
   {
     id: 7,
     state: "Conneticut",
-    img: "./states/7.png",
+    img: "./assets/states/7.png",
     gunOwnership: "16.6%",
     gunDeath: "4.81",
     gunGrade: "A-",
@@ -65,7 +65,7 @@ const stateDataObj = [
   {
     id: 8,
     state: "Delaware",
-    img: "./states/8.png",
+    img: "./assets/states/8.png",
     gunOwnership: "5.2%",
     gunDeath: "11.66",
     gunGrade: "B",
@@ -74,7 +74,7 @@ const stateDataObj = [
   {
     id: 9,
     state: "Florida",
-    img: "./states/9.png",
+    img: "./assets/states/9.png",
     gunOwnership: "32.5%",
     gunDeath: "13.12",
     gunGrade: "F",
@@ -83,7 +83,7 @@ const stateDataObj = [
   {
     id: 10,
     state: "Georgia",
-    img: "./states/10.png",
+    img: "./assets/states/10.png",
     gunOwnership: "31.6%",
     gunDeath: "15.24",
     gunGrade: "F",
@@ -92,7 +92,7 @@ const stateDataObj = [
   {
     id: 11,
     state: "Hawaii",
-    img: "./states/11.png",
+    img: "./assets/states/11.png",
     gunOwnership: "45.1%",
     gunDeath: "4.62",
     gunGrade: "A-",
@@ -101,7 +101,7 @@ const stateDataObj = [
   {
     id: 12,
     state: "Idaho",
-    img: "./states/12.png",
+    img: "./assets/states/12.png",
     gunOwnership: "56.9%",
     gunDeath: "14.38",
     gunGrade: "F",
@@ -110,7 +110,7 @@ const stateDataObj = [
   {
     id: 13,
     state: "Illinois",
-    img: "./states/13.png",
+    img: "./assets/states/13.png",
     gunOwnership: "26.2%",
     gunDeath: "11.64",
     gunGrade: "B+",
@@ -119,7 +119,7 @@ const stateDataObj = [
   {
     id: 14,
     state: "Indiana",
-    img: "./states/14.jpg",
+    img: "./assets/states/14.jpg",
     gunOwnership: "33.8%",
     gunDeath: "15.03",
     gunGrade: "D-",
@@ -128,7 +128,7 @@ const stateDataObj = [
   {
     id: 15,
     state: "Iowa",
-    img: "./states/15.jpg",
+    img: "./assets/states/15.jpg",
     gunOwnership: "33.8%",
     gunDeath: "9.19",
     gunGrade: "C-",
@@ -137,7 +137,7 @@ const stateDataObj = [
   {
     id: 16,
     state: "Kansas",
-    img: "./states/16.png",
+    img: "./assets/states/16.png",
     gunOwnership: "32.2%",
     gunDeath: "13.17",
     gunGrade: "F",
@@ -146,7 +146,7 @@ const stateDataObj = [
   {
     id: 17,
     state: "Kentucky",
-    img: "./states/17.png",
+    img: "./assets/states/17.png",
     gunOwnership: "42.4%",
     gunDeath: "17.4",
     gunGrade: "F",
@@ -155,7 +155,7 @@ const stateDataObj = [
   {
     id: 18,
     state: "Louisiana",
-    img: "./states/18.png",
+    img: "./assets/states/18.png",
     gunOwnership: "44.5%",
     gunDeath: "21.08",
     gunGrade: "F",
@@ -164,7 +164,7 @@ const stateDataObj = [
   {
     id: 19,
     state: "Maine",
-    img: "./states/19.png",
+    img: "./assets/states/19.png",
     gunOwnership: "22.6%",
     gunDeath: "9.24",
     gunGrade: "F",
@@ -173,7 +173,7 @@ const stateDataObj = [
   {
     id: 20,
     state: "Maryland",
-    img: "./states/20.png",
+    img: "./assets/states/20.png",
     gunOwnership: "20.7%",
     gunDeath: "11.75",
     gunGrade: "A-",
@@ -182,7 +182,7 @@ const stateDataObj = [
   {
     id: 21,
     state: "Massachusetts",
-    img: "./states/21.png",
+    img: "./assets/states/21.png",
     gunOwnership: "22.6%",
     gunDeath: "3.55",
     gunGrade: "A-",
@@ -191,7 +191,7 @@ const stateDataObj = [
   {
     id: 22,
     state: "Michigan",
-    img: "./states/22.png",
+    img: "./assets/states/22.png",
     gunOwnership: "28.8%",
     gunDeath: "12.39",
     gunGrade: "C",
@@ -200,7 +200,7 @@ const stateDataObj = [
   {
     id: 23,
     state: "Minnesota",
-    img: "./states/23.png",
+    img: "./assets/states/23.png",
     gunOwnership: "36.7%",
     gunDeath: "7.83",
     gunGrade: "C+",
@@ -209,7 +209,7 @@ const stateDataObj = [
   {
     id: 24,
     state: "Mississippi",
-    img: "./states/24.png",
+    img: "./assets/states/24.png",
     gunOwnership: "42.8%",
     gunDeath: "19.64",
     gunGrade: "F",
@@ -218,7 +218,7 @@ const stateDataObj = [
   {
     id: 25,
     state: "Missouri",
-    img: "./states/25.png",
+    img: "./assets/states/25.png",
     gunOwnership: "27.1%",
     gunDeath: "18.78",
     gunGrade: "F",
@@ -227,7 +227,7 @@ const stateDataObj = [
   {
     id: 26,
     state: "Montana",
-    img: "./states/26.png",
+    img: "./assets/states/26.png",
     gunOwnership: "52.3%",
     gunDeath: "18.61",
     gunGrade: "F",
@@ -236,7 +236,7 @@ const stateDataObj = [
   {
     id: 27,
     state: "Nebraska",
-    img: "./states/27.png",
+    img: "./assets/states/27.png",
     gunOwnership: "19.8%",
     gunDeath: "8.97",
     gunGrade: "D-",
@@ -245,7 +245,7 @@ const stateDataObj = [
   {
     id: 28,
     state: "Nevada",
-    img: "./states/28.jpg",
+    img: "./assets/states/28.jpg",
     gunOwnership: "37.5%",
     gunDeath: "16.94",
     gunGrade: "D-",
@@ -254,7 +254,7 @@ const stateDataObj = [
   {
     id: 29,
     state: "New Hampshire",
-    img: "./states/29.png",
+    img: "./assets/states/29.png",
     gunOwnership: "14.4%",
     gunDeath: "9.89",
     gunGrade: "F",
@@ -263,7 +263,7 @@ const stateDataObj = [
   {
     id: 30,
     state: "New Jersey",
-    img: "./states/30.png",
+    img: "./assets/states/30.png",
     gunOwnership: "11.3%",
     gunDeath: "5.42",
     gunGrade: "A-",
@@ -272,7 +272,7 @@ const stateDataObj = [
   {
     id: 31,
     state: "New Mexico",
-    img: "./states/31.png",
+    img: "./assets/states/31.png",
     gunOwnership: "49.9%",
     gunDeath: "18.4",
     gunGrade: "F",
@@ -281,7 +281,7 @@ const stateDataObj = [
   {
     id: 32,
     state: "New York",
-    img: "./states/32.png",
+    img: "./assets/states/32.png",
     gunOwnership: "10.3%",
     gunDeath: "4.56",
     gunGrade: "A-",
@@ -290,7 +290,7 @@ const stateDataObj = [
   {
     id: 33,
     state: "North Carolina",
-    img: "./states/33.png",
+    img: "./assets/states/33.png",
     gunOwnership: "28.7%",
     gunDeath: "13.89",
     gunGrade: "D-",
@@ -299,7 +299,7 @@ const stateDataObj = [
   {
     id: 34,
     state: "North Dakota",
-    img: "./states/34.png",
+    img: "./assets/states/34.png",
     gunOwnership: "47.9%",
     gunDeath: "11.87",
     gunGrade: "F",
@@ -308,7 +308,7 @@ const stateDataObj = [
   {
     id: 35,
     state: "Ohio",
-    img: "./states/35.png",
+    img: "./assets/states/35.png",
     gunOwnership: "19.6%",
     gunDeath: "13.12",
     gunGrade: "D",
@@ -317,7 +317,7 @@ const stateDataObj = [
   {
     id: 36,
     state: "Oklahoma",
-    img: "./states/36.png",
+    img: "./assets/states/36.png",
     gunOwnership: "31.2%",
     gunDeath: "19.52",
     gunGrade: "F",
@@ -326,7 +326,7 @@ const stateDataObj = [
   {
     id: 37,
     state: "Oregon",
-    img: "./states/37.png",
+    img: "./assets/states/37.png",
     gunOwnership: "26.6%",
     gunDeath: "12.53",
     gunGrade: "C",
@@ -335,7 +335,7 @@ const stateDataObj = [
   {
     id: 38,
     state: "Pennsylvania",
-    img: "./states/38.png",
+    img: "./assets/states/38.png",
     gunOwnership: "27.1%",
     gunDeath: "12.16",
     gunGrade: "C",
@@ -344,7 +344,7 @@ const stateDataObj = [
   {
     id: 39,
     state: "Rhode Island",
-    img: "./states/39.png",
+    img: "./assets/states/39.png",
     gunOwnership: "5.8%",
     gunDeath: "4.64",
     gunGrade: "B+",
@@ -353,7 +353,7 @@ const stateDataObj = [
   {
     id: 40,
     state: "South Carolina",
-    img: "./states/40.png",
+    img: "./assets/states/40.png",
     gunOwnership: "44.4%",
     gunDeath: "17.96",
     gunGrade: "F",
@@ -362,7 +362,7 @@ const stateDataObj = [
   {
     id: 41,
     state: "South Dakota",
-    img: "./states/41.png",
+    img: "./assets/states/41.png",
     gunOwnership: "35%",
     gunDeath: "12.48",
     gunGrade: "F",
@@ -371,7 +371,7 @@ const stateDataObj = [
   {
     id: 42,
     state: "Tennessee",
-    img: "./states/42.png",
+    img: "./assets/states/42.png",
     gunOwnership: "39.4%",
     gunDeath: "17.26",
     gunGrade: "D-",
@@ -380,7 +380,7 @@ const stateDataObj = [
   {
     id: 43,
     state: "Texas",
-    img: "./states/43.png",
+    img: "./assets/states/43.png",
     gunOwnership: "35.7%",
     gunDeath: "12.03",
     gunGrade: "F",
@@ -389,7 +389,7 @@ const stateDataObj = [
   {
     id: 44,
     state: "Utah",
-    img: "./states/44.png",
+    img: "./assets/states/44.png",
     gunOwnership: "31.9%",
     gunDeath: "12.13",
     gunGrade: "F",
@@ -398,7 +398,7 @@ const stateDataObj = [
   {
     id: 45,
     state: "Vermont",
-    img: "./states/45.png",
+    img: "./assets/states/45.png",
     gunOwnership: "28.8%",
     gunDeath: "12.49",
     gunGrade: "F",
@@ -407,7 +407,7 @@ const stateDataObj = [
   {
     id: 46,
     state: "Virginia",
-    img: "./states/46.png",
+    img: "./assets/states/46.png",
     gunOwnership: "29.3%",
     gunDeath: "12.47",
     gunGrade: "D",
@@ -416,7 +416,7 @@ const stateDataObj = [
   {
     id: 47,
     state: "Washington",
-    img: "./states/47.png",
+    img: "./assets/states/47.png",
     gunOwnership: "27.7%",
     gunDeath: "9.41",
     gunGrade: "B",
@@ -425,7 +425,7 @@ const stateDataObj = [
   {
     id: 48,
     state: "West Virgina",
-    img: "./states/48.png",
+    img: "./assets/states/48.png",
     gunOwnership: "54.2%",
     gunDeath: "18.13",
     gunGrade: "F",
@@ -434,7 +434,7 @@ const stateDataObj = [
   {
     id: 49,
     state: "Wisconsin",
-    img: "./states/49.png",
+    img: "./assets/states/49.png",
     gunOwnership: "34.7%",
     gunDeath: "11.49",
     gunGrade: "C-",
@@ -443,7 +443,7 @@ const stateDataObj = [
   {
     id: 50,
     state: "Wyoming",
-    img: "./states/50.png",
+    img: "./assets/states/50.png",
     gunOwnership: "53.8%",
     gunDeath: "17.25",
     gunGrade: "F",
@@ -453,12 +453,12 @@ const stateDataObj = [
 
 const stateData = document.getElementById('state-data')
 
-const svgObject = document.getElementById('map');
+const svgObject = document.getElementById('map-compare');
 svgObject.addEventListener("click", showStats);
 
 function showStats(event) {
-  let id = parseInt(event.path[0].id)
 
+  let id = parseInt(event.path[0].id)
 
   stateDataObj.forEach(state => {
 
@@ -469,17 +469,17 @@ function showStats(event) {
       let image = document.getElementById('image');
       image.src = state.img;
 
-      let owners = document.getElementById('gunOwners');
-      owners.innerHTML = `Gun Ownership(% of total population): ${state.gunOwnership}`;
+      let owners = document.getElementById('gunOwners2');
+      owners.innerHTML = state.gunOwnership;
 
-      let deaths = document.getElementById('deaths');
-      deaths.innerHTML = `Gun Death Rates(per 100,000): ${state.gunDeath}`;
+      let deaths = document.getElementById('deaths2');
+      deaths.innerHTML = state.gunDeath;
 
-      let grade = document.getElementById('grade');
-      grade.innerHTML = `Giffords Law Center Gun Grade: ${state.gunGrade}`;
+      let grade = document.getElementById('grade2');
+      grade.innerHTML = state.gunGrade;
 
-      let rank = document.getElementById('rank');
-      rank.innerHTML = `Guns & Ammo State Rank: ${state.gunGradePro}`;
+      let rank = document.getElementById('rank2');
+      rank.innerHTML = state.gunGradePro;
     }
   })
 }
