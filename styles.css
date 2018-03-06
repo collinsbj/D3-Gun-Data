@@ -1,3 +1,11 @@
+body {
+  font-family: 'Crete Round', serif;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -24,7 +32,6 @@ footer {
 }
 
 .hero {
-  background-image: url("./assets/clem-onojeghuo-99399-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,12 +40,30 @@ footer {
   position: relative;
 }
 
+#logo-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#video {
+  position: fixed;
+  z-index: -1000;
+}
+
+
+
 .heroPic1 {
-  background-image: url("./assets/davide-cantelli-139887-unsplash.jpg");
+  background-image: url("./assets/portarther.jpg");
 }
 
 .heroPic2 {
-  background-image: url("./assets/nathan-anderson-291067-unsplash.jpg");
+  background-image: url("./assets/guns.jpg");
 }
 
 .heroPic3 {
