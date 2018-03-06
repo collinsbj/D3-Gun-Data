@@ -4,8 +4,16 @@ body {
   font-family: "Karma", serif;
 }
 
-h2 {
+h3 {
   font-size: 4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
 }
 
 section img {
@@ -29,9 +37,9 @@ section {
 footer {
   width: 90vw;
   margin: 0 auto;
-  padding-top: 1rem;
   padding-bottom: 2rem;
-  background-color: white;
+  background-color: #0d47a1;
+  color: darkgray;
 }
 
 #landing {
@@ -152,13 +160,13 @@ h2 {
   font-size: 40px;
 }
 
-h5 {
-  font-size: 30px;
+.about {
+  font-style: italic;
   margin: 1rem;
 }
 
-.title {
-  font-style: italic;
+#ausUsStats {
+  background-color: white;
 }
 
 #map-container {
@@ -276,7 +284,7 @@ h5 {
   grid-row: 4/5;
   grid-column: 1/3;
   font-size: 1.2rem;
-  justify-self:  center;
+  justify-self: center;
   align-self: center;
   color: #0d47a1;
   font-size: 1.5rem;
@@ -295,7 +303,7 @@ h5 {
   grid-row: 6/7;
   grid-column: 1/3;
   font-size: 1.2rem;
-  justify-self:  center;
+  justify-self: center;
   align-self: center;
   color: #0d47a1;
   font-size: 1.5rem;
@@ -314,7 +322,7 @@ h5 {
   grid-row: 8/9;
   grid-column: 1/3;
   font-size: 1.2rem;
-  justify-self:  center;
+  justify-self: center;
   align-self: center;
   color: #0d47a1;
   font-size: 1.5rem;
@@ -333,7 +341,7 @@ h5 {
   grid-row: 10/11;
   grid-column: 1/3;
   font-size: 1.2rem;
-  justify-self:  center;
+  justify-self: center;
   align-self: center;
   color: #0d47a1;
   font-size: 1.5rem;
@@ -376,7 +384,6 @@ h5 {
   fill: #0d47a1;
 }
 
-
 #groupInfo {
   height: auto;
   display: flex;
@@ -398,14 +405,15 @@ h5 {
   text-align: center;
 }
 
-#groupInfo p,
-#groupInfo a {
-  margin: 0.2rem;
+.person a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 h5 {
   font-size: 45px;
-  margin: 1rem;
+  padding: 1rem;
+  background-color: #093981;
 }
 
 h6 {
