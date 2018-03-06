@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Karma');
+@import url("https://fonts.googleapis.com/css?family=Karma");
 
 body {
   font-family: "Karma", serif;
@@ -123,16 +123,25 @@ footer {
   color: hsl(0, 0%, 85%);
 }
 
+#ausUsStats h3 {
+  padding: 3rem;
+}
+
+#chart {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .heroPic1 {
-  background-image: url("./assets/portarther.jpg");
+  background-image: url("../assets/portarther.jpg");
 }
 
 .heroPic2 {
-  background-image: url("./assets/guns.jpg");
+  background-image: url("../assets/guns.jpg");
 }
 
 .heroPic3 {
-  background-image: url("./assets/parkland.jpg");
+  background-image: url("../assets/parkland.jpg");
 }
 
 .parallax {
@@ -261,7 +270,7 @@ h2 {
   font-size: 1.6rem;
   justify-self: center;
   align-self: center;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   color: #0d47a1;
 }
 
@@ -371,8 +380,8 @@ h2 {
 
 #sources a {
   width: 100%;
-  font-size: .6rem;
-  margin: 0rem 0rem .4rem 0rem;
+  font-size: 0.6rem;
+  margin: 0rem 0rem 0.4rem 0rem;
   text-decoration: none;
   text-align: right;
   color: #0d47a1;
