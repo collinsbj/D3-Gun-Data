@@ -121,6 +121,11 @@ var chart = c3.generate({
       "Households with Firearms - USA": "y2"
     }
   },
+  point: {
+    select: {
+      r: 3
+    }
+  },
   size: {
     height: 480
   },
