@@ -176,9 +176,15 @@ h2 {
   font-size: 40px;
 }
 
+.separator {
+  height: 22vh;
+  width: 1px;
+  border-right: 0.5px solid black;
+}
+
 .about {
   font-style: italic;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 #ausUsStats {
@@ -428,6 +434,7 @@ h2 {
 }
 
 #groupInfo > div {
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -439,6 +446,7 @@ h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 30%;
 }
 
 .person a {
@@ -458,7 +466,7 @@ h5 {
 
 h6 {
   font-size: 30px;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 #poweredBy {
@@ -485,9 +493,14 @@ h6 {
 }
 
 #articleSources {
+  height: auto;
   display: flex;
   justify-content: space-around;
   padding-top: 3rem;
+}
+
+#articleSources h6 {
+  font-size: 20px;
 }
 
 #articleSources ul {
@@ -497,14 +510,11 @@ h6 {
 
 #articleSources li {
   margin: 0.5rem 0;
+  font-size: 12px;
 }
 
 #poweredBy a,
 #articleSources a {
   text-decoration: none;
   color: darkgray;
-}
-
-li {
-  margin: 0.2rem;
 }
