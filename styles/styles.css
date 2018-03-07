@@ -64,6 +64,7 @@ footer {
   height: 100vh;
   -webkit-transform: scaleX(1.5);
   -moz-transform: scaleX(1.5);
+  transform: scaleX(1.5);
 }
 
 #logo-container {
