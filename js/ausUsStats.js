@@ -1,4 +1,4 @@
-var chart = c3.generate({
+c3.generate({
   bindto: "#chart",
   data: {
     xs: {
@@ -119,6 +119,11 @@ var chart = c3.generate({
       "Households with Firearms - Australia": "y2",
       "Gun Deaths - USA": "y",
       "Households with Firearms - USA": "y2"
+    }
+  },
+  point: {
+    select: {
+      r: 3
     }
   },
   size: {

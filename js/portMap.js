@@ -141,7 +141,7 @@ var handle = slider
   .append("circle")
   .attr("class", "handle")
   .attr("transform", "translate(0," + height / 2 + ")")
-  .attr("r", 9);
+  .attr("r", 11);
 
 slider
   .call(brush.event)
