@@ -121,6 +121,7 @@ footer {
   font-size: 4rem;
   margin-left: 4rem;
   color: hsl(0, 0%, 85%);
+  width: 80%;
 }
 
 #ausUsStats h3 {
@@ -128,18 +129,8 @@ footer {
 }
 
 #chart {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.chartButtons {
-  display: flex;
-  justify-content: center;
-}
-
-.chartButtons button {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  width: 60%;
+  margin-right: 3rem;
 }
 
 .heroPic1 {
@@ -189,6 +180,27 @@ h2 {
 
 #ausUsStats {
   background-color: white;
+}
+
+#ausUsStats p {
+  width: 25%;
+  margin-left: 3rem;
+}
+
+#ausUsStats > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photoCaption {
+  max-width: 30%;
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 0.7rem;
 }
 
 #map-container {
@@ -452,11 +464,16 @@ h6 {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  align-items: center;
 }
 
 #poweredBy img,
 .person img {
   height: 3rem;
+}
+
+.poweredByItem {
+  font-size: 3rem;
 }
 
 #sources {
