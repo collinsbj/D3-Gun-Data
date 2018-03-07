@@ -254,6 +254,12 @@ h2 {
   background-color: #0d47a1;
   color: white;
   padding: 0rem 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#form input:hover {
+  background-color: #093981;
 }
 
 #map-compare {
@@ -397,6 +403,7 @@ h2 {
   grid-row: 4/5;
   grid-column: 2/3;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: flex-end;
   margin-right: 3rem;
@@ -412,12 +419,13 @@ h2 {
 }
 
 #keys img {
-  height: 75%;
-  width: 35%;
+  height: 100%;
+  width: 45%;
 }
 
 .state:hover {
   fill: #0d47a1;
+  cursor: pointer;
 }
 
 #groupInfo {
