@@ -2,22 +2,14 @@ var chart = c3.generate({
   bindto: "#chart",
   data: {
     xs: {
-      "Gun Deaths/100 population - Australia": "x1",
+      "Gun Deaths - Australia": "x1",
       "Households with Firearms - Australia": "x2",
-      "Gun Deaths/100 population - USA": "x3",
+      "Gun Deaths - USA": "x3",
       "Households with Firearms - USA": "x4"
     },
     columns: [
       [
         "x1",
-        1986,
-        1987,
-        1988,
-        1989,
-        1990,
-        1991,
-        1992,
-        1993,
         1994,
         1995,
         1996,
@@ -41,7 +33,7 @@ var chart = c3.generate({
         2014,
         2015
       ],
-      ["x2", 1979, 1988, 1989, 1992, 1994, 2000, 2003, 2005],
+      ["x2", 1994, 2000, 2003, 2005],
       [
         "x3",
         1999,
@@ -61,40 +53,9 @@ var chart = c3.generate({
         2013,
         2014
       ],
+      ["x4", 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014],
       [
-        "x4",
-        1980,
-        1982,
-        1984,
-        1985,
-        1987,
-        1988,
-        1989,
-        1990,
-        1991,
-        1993,
-        1994,
-        1996,
-        1998,
-        2000,
-        2002,
-        2004,
-        2006,
-        2008,
-        2010,
-        2012,
-        2014
-      ],
-      [
-        "Gun Deaths/100 population - Australia",
-        4.26,
-        4.3,
-        4.11,
-        3.29,
-        3.51,
-        3.59,
-        3.49,
-        2.91,
+        "Gun Deaths - Australia",
         2.9,
         2.61,
         2.84,
@@ -118,19 +79,9 @@ var chart = c3.generate({
         1.02,
         0.93
       ],
+      ["Households with Firearms - Australia", 16.0, 8.0, 8.7, 6.2],
       [
-        "Households with Firearms - Australia",
-        20,
-        25,
-        20.1,
-        15.1,
-        16.0,
-        8.0,
-        8.7,
-        6.2
-      ],
-      [
-        "Gun Deaths/100 population - USA",
+        "Gun Deaths - USA",
         10.35,
         10.19,
         10.38,
@@ -150,16 +101,6 @@ var chart = c3.generate({
       ],
       [
         "Households with Firearms - USA",
-        28.1,
-        28.2,
-        25.3,
-        30.5,
-        28.0,
-        24.9,
-        27.1,
-        28.5,
-        27.0,
-        29.3,
         28.2,
         27.1,
         22.4,
@@ -174,57 +115,32 @@ var chart = c3.generate({
       ]
     ],
     axes: {
-      "Gun Deaths/100 population - Australia": "y",
+      "Gun Deaths - Australia": "y",
       "Households with Firearms - Australia": "y2",
-      "Gun Deaths/100 population - USA": "y",
+      "Gun Deaths - USA": "y",
       "Households with Firearms - USA": "y2"
     }
   },
+  size: {
+    height: 480
+  },
   axis: {
+    y: {
+      max: 11,
+      min: 1,
+      label: {
+        text: "Gun Deaths/100 Population",
+        position: "outer-middle"
+      }
+    },
     y2: {
-      show: true
+      max: 30,
+      min: 1,
+      show: true,
+      label: {
+        text: "% of Households w/ Firearms",
+        position: "outer-middle"
+      }
     }
   }
-});
-
-document.querySelector("#gunDeaths").addEventListener("click", function() {
-  chart.toggle(
-    [
-      "Gun Deaths/100 population - Australia",
-      "Gun Deaths/100 population - USA"
-    ],
-    {
-      withLegend: true
-    }
-  );
-});
-
-document.querySelector("#houseFirearms").addEventListener("click", function() {
-  chart.toggle(
-    ["Households with Firearms - Australia", "Households with Firearms - USA"],
-    {
-      withLegend: true
-    }
-  );
-});
-
-document.querySelector("#us").addEventListener("click", function() {
-  chart.toggle(
-    ["Gun Deaths/100 population - USA", "Households with Firearms - USA"],
-    {
-      withLegend: true
-    }
-  );
-});
-
-document.querySelector("#aus").addEventListener("click", function() {
-  chart.toggle(
-    [
-      "Households with Firearms - Australia",
-      "Gun Deaths/100 population - Australia"
-    ],
-    {
-      withLegend: true
-    }
-  );
 });
