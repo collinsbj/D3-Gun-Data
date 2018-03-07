@@ -7,6 +7,17 @@ L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 let currentCircleId = 0;
 let circlePos = 0;
 
+map.scrollWheelZoom.disable();
+
+map.on('click', function() {
+  if (map.scrollWheelZoom.enabled()) {
+    map.scrollWheelZoom.disable();
+    }
+    else {
+    map.scrollWheelZoom.enable();
+    }
+  });
+
 /* Initialize the SVG layer */
 // map._initPathRoot();
 L.svg().addTo(map);
