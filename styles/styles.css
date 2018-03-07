@@ -2,10 +2,12 @@
 
 body {
   font-family: "Karma", serif;
+  background-color: hsl(0, 0%, 85%);
 }
 
 h3 {
   font-size: 4rem;
+  color: #0d47a1;
 }
 
 h4 {
@@ -42,7 +44,7 @@ footer {
   margin: 0 auto;
   padding-bottom: 2rem;
   background-color: #0d47a1;
-  color: darkgray;
+  color: hsl(0, 0%, 85%);
 }
 
 #landing {
