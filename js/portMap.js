@@ -14,6 +14,7 @@ L.svg().addTo(map);
 var svg = d3.select("#map").select("svg"),
   g = svg.append("g");
 
+
 d3.json("js/circles.json", function(collection) {
   /* Add a LatLng object to each item in the dataset */
   collection.objects.forEach(function(d) {
@@ -221,7 +222,11 @@ function addBtn() {
   }
 }
 
+<<<<<<< HEAD
 function moveToNext() {
+=======
+function moveToNext () {
+>>>>>>> 629157d01a4227d43658d92de716eeb073c776f1
   d3.json("js/circles.json", function(collection) {
     collection.objects.forEach(function(d) {
       if (d.circle.id === currentCircleId + 1) {
