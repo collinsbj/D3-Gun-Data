@@ -1,5 +1,3 @@
-console.log("connected");
-
 var map = L.map("map").setView([-43.001533, 147.651459], 10);
 mapLink = "<a href=\"http://openstreetmap.org\">OpenStreetMap</a>";
 L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -10,8 +8,8 @@ let currentCircleId = 0;
 let circlePos = 0;
 
 /* Initialize the SVG layer */
-map._initPathRoot();
-
+// map._initPathRoot();
+L.svg().addTo(map);
 /* We simply pick up the SVG from the map object */
 var svg = d3.select("#map").select("svg"),
   g = svg.append("g");
@@ -224,7 +222,6 @@ function addBtn() {
 }
 
 function moveToNext() {
-  console.log("currentCircleId", currentCircleId);
   d3.json("js/circles.json", function(collection) {
     collection.objects.forEach(function(d) {
       if (d.circle.id === currentCircleId + 1) {
