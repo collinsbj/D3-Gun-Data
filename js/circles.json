@@ -5,7 +5,7 @@
       "id":0,
       "color": "black",
       "description":"Bryant's close friend and heiress to a lottery fortune had recently died and left him with his home. His father had also recently died of unnatural causes. He is beleived to have an IQ of 166.",
-      "image1":"/assets/portArthur/mBryant.jpeg",
+      "image1":"./assets/portArthur/mbryant.jpeg",
       "image2":"",
       "zoom":"10"
 

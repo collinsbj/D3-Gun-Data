@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/portArthur.css">
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+   crossorigin="">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,400,600|PT+Sans+Narrow" rel="stylesheet">
@@ -59,7 +60,7 @@
                                 recently died of unnatural causes. He is beleived to have an IQ of 166.
                             </p>
                         </div>
-                        <image id="storyImage1" class="storyImage" src="./assets/portArthur/mBryant.jpeg"></image>
+                        <image id="storyImage1" class="storyImage" src="/assets/portArthur/mbryant.jpeg"></image>
                         <image id="storyImage2" class="storyImage" src=""></image>
                     </aside>
                     <div id="map" style="width: 55vw; height: 50vh; margin-right: 3rem"></div>
@@ -163,7 +164,7 @@
                     </div>
                     <div class="person">
                         <h6>Emily Pancake</h6>
-                        <p class="about">tag line...</p>
+                        <p class="about">Web Developer | Design Enthusiast</p>
                         <div>
                             <a href="https://github.com/epancake">
                                 <img src="./assets/github.png" alt="">
@@ -223,9 +224,11 @@
     </main>
 
 </body>
-<script type="text/javascript" src="./circles.json"></script>
-<script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" src="./js/circles.json"></script>
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+   integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+   crossorigin=""></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.min.js"></script>
 <script src="./js/ausUsStats.js"></script>
 <script src="./js/portMap.js"></script>
