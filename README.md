@@ -8,12 +8,16 @@ The Tipping Point is a D3 visualization that centers on the story of the Port Ar
 # Project features
 ## First Visualization: 
 D3 and Leaflet.js powered story telling walks you through the story of the Port Arthur massacre.
+![screen shot 2018-03-08 at 1 17 18 pm](https://user-images.githubusercontent.com/32685092/37174297-4fdb898e-22d3-11e8-90c2-3736d880fe73.png)
 
 ## Second Visualization: 
 C3 powered line chart showing the changes in gun owership and deaths in Australia and the United States.
+![screen shot 2018-03-08 at 1 17 27 pm](https://user-images.githubusercontent.com/32685092/37174311-5aee2eee-22d3-11e8-9f42-d34cad6602fc.png)
+
 
 ## Third Visualization: 
 D3 and TopoJSON powered map that allows for comparison of gun ownership, gun deaths, and strictness of gun laws across the United States.
+![screen shot 2018-03-08 at 1 17 40 pm](https://user-images.githubusercontent.com/32685092/37174317-60fbc724-22d3-11e8-88ae-114946f78029.png)
 
 # Installation
 After forking and cloning this repo:
