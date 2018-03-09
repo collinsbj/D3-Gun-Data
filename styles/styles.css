@@ -527,3 +527,304 @@ h6 {
   text-decoration: none;
   color: darkgray;
 }
+
+
+@media only screen and (max-width: 420px){
+  body {
+    background-color: hsl(0, 0%, 50%);
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  #title {
+    grid-template-rows: 20% 20% 20% 40% ;
+    grid-template-columns: 100vw;
+  }
+
+  #video {
+    position: absolute;
+  }
+
+  #first-title {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    font-size: 6rem;
+    margin-right: 1rem;
+  }
+
+  #second-title {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-size: 6rem;
+    margin-right: 1rem;
+  }
+
+  #third-title {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    font-size: 6rem;
+    margin-right: 1rem;
+  }
+
+  #subtitle {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+
+  #ausUsStats-mobile {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+  }
+
+  #ausUsStats h3 {
+    padding: 1.5rem 2rem .4rem 2rem;
+  }
+
+  #ausUsStats-mobile p {
+    width: 80%;
+    font-size: .8rem;
+    margin-left: 0rem;
+  }
+
+  #chart {
+    width: 98vw;
+    height:30vh;
+    margin-right: 0rem;
+    margin-top: .5rem;
+  }
+
+  #chart svg {
+    height: 350px !important;
+    width: 300px !important;
+    margin-left: 2.5rem;
+  }
+
+  #map-container {
+    grid-template-columns: 100vw;
+    grid-template-rows: 8vh 10vh 47vh 10vh 25vh;
+  }
+
+  #map-container h3 {
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.3rem;
+    margin-left: 0rem;
+  }
+
+  #select {
+    grid-column: 1/2;
+  }
+
+  #form {
+    width: 100%;
+    height: 100%;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #form h4 {
+    margin: 0rem .8rem .5rem 1rem;
+    font-size: .8rem;
+    width: 25%;
+  }
+
+  #form select {
+    border: solid black 1px;
+    font-size: .6rem;
+    width: 40%;
+    height: 1rem;
+    margin: 0rem 1rem .5rem 0rem;
+  }
+
+
+  #form input {
+    font-size: .6rem;
+    margin-left: .5rem;
+  }
+
+  #map-compare {
+    width: 100vw;
+    height: 45vh;
+  }
+
+  #data {
+    grid-row: 5/6;
+    grid-column: 1/2;
+  }
+
+  #state-data {
+    width: 75vw;
+    height: 20vh;
+    justify-self: center;
+    align-items: center;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 5vh 3.5vh 3.5vh 3.5vh 3.5vh;
+  }
+
+  #title-more-info {
+    grid-column: 1/5;
+    font-size: 1em;
+  }
+
+  #name {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    font-size: .8rem;
+  }
+
+  #image {
+    grid-row: 3/6;
+    grid-column: 3/4;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #gunOwners {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-size: .5rem;
+    justify-self: center;
+    margin-left: 0rem;
+    text-align: center;
+  }
+
+  #gunOwners2 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    font-size: 1rem;
+  }
+
+  #deaths {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    font-size: .5rem;
+    justify-self: center;
+    margin-left: 0rem;
+    text-align: center;
+  }
+
+  #deaths2 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    justify-self: center;
+    font-size: 1rem;
+  }
+
+  #grade {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: .5rem;
+    justify-self: center;
+    margin-left: 0rem;
+    text-align: center;
+  }
+
+  #grade2 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 1rem;
+  }
+
+  #rank {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    font-size: .5rem;
+    justify-self: center;
+    margin-left: 0rem;
+    text-align: center;
+  }
+
+  #rank2 {
+    grid-row: 5/6;
+    grid-column: 2/3;
+    font-size: 1rem;
+  }
+
+  #keys {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #sources {
+    display: none;
+  }
+
+  #articleSources {
+    height: 50vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  #articleSources h6 {
+    text-align: center;
+    margin: .5rem 0rem;
+    font-size: 1rem;
+  }
+
+  #articleSources ul {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  #articleSources li {
+    width: 100%;
+    margin: 0;
+    font-size: .5rem;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  h6 {
+    font-size: 1.5px;
+    margin: 0.5rem 0;
+  }
+
+  .person h6 {
+    font-size: 1.5rem;
+  }
+
+  .about {
+    font-size: .6rem;
+  }
+
+  #poweredBy div {
+    margin: 1rem;
+  }
+
+  #poweredBy img,
+  .person img {
+    height: 1rem;
+  }
+
+  .poweredByItem {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: .8rem;
+  }
+
+
+
+}

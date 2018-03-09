@@ -149,3 +149,5 @@ c3.generate({
     }
   }
 });
+
+d3.select("#chart svg").attr("viewBox", "0 0 367 480").attr("preserveAspectRatio", "xMinYMin")

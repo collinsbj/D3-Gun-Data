@@ -195,7 +195,6 @@ function brushend() {
       brush.extent(
         brush.extent().map(function(d) {
           circlePos = d3.round(d);
-          console.log("circlePos", circlePos);
           handleBrushing(circlePos);
           return d3.round(d);
         })
@@ -249,3 +248,5 @@ function moveToNext () {
   });
   // map.setView(d.circle.coordinates, d.circle.zoom)
 }
+
+d3.select("#slider3 svg").attr("viewBox", "0 0 960 100").attr("preserveAspectRatio", "xMinYMin")

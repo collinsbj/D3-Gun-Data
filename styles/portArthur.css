@@ -154,3 +154,93 @@ text {
   justify-content: center;
   align-items: center;
 }
+
+#map {
+  width: 55vw;
+  height: 50vh;
+  margin-right: 3rem;
+}
+
+
+@media only screen and (max-width: 420px) {
+
+  .portWrapper {
+    padding: 1rem 1rem;
+  }
+
+  .storyMap {
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: space-around;
+    padding-top: 1rem;
+  }
+
+  .storyImage {
+    width: 6rem;
+  }
+
+  #storyCard {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #storyCard h4 {
+    font-size: 1rem;
+  }
+
+  #storyCard p {
+    margin: .2rem 0rem;
+    font-size: .7rem;
+  }
+
+  #storyDescription {
+    width: 90vw;
+    margin: 1rem 0rem;
+    font-size: .6rem;
+  }
+
+  #storyTitle {
+    align-self: start;
+  }
+
+  text {
+    font-size: .8rem;
+  }
+
+  .intro {
+    font-size: .6rem;
+    padding: .5rem 0;
+  }
+
+
+  #instruction {
+    font-size: .8rem;
+    text-align: center;
+  }
+
+  #map {
+    width: 90vw;
+    height: 25vh;
+    margin-bottom: .8rem;
+  }
+
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #slider3 svg{
+    width: 350px;
+    height: 50px;
+  }
+
+  .svg-inline--fa {
+    display: none;
+  }
+
+}
