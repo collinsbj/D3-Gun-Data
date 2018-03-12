@@ -4,7 +4,7 @@
       "coordinates":[-43.001533, 147.651459],
       "id":0,
       "color": "black",
-      "description":"Bryant's close friend and heiress to a lottery fortune had recently died and left him with his home. His father had also recently died of unnatural causes. He is beleived to have an IQ of 166.",
+      "description":"Bryant's close friend and heiress to a lottery fortune had recently died and left him with his home. His father had also recently died of unnatural causes. He is beleived to have an IQ of 66.",
       "image1":"./assets/portArthur/mbryant.jpeg",
       "image2":"",
       "zoom":"10"
@@ -28,7 +28,7 @@
       "coordinates":[-42.774232, 147.536035],
       "id":2,
       "color": "rgb(110, 45, 126)",
-      "description":"10:30 am: Bryant drove his yellow Volvo to the news agency store and bought a cigarrette lighter. The proprietor noticed that his demeanor was unusual, since he usually exchanged pleasantries and didn't show that he recogognized the proprietor. Bryant left more money than we needed for the lighter and left abruptly.",
+      "description":"10:30 am: Bryant drove his yellow Volvo to the news agency store and bought a cigarrette lighter. The proprietor noticed that his demeanor was unusual, since he usually exchanged pleasantries, and also because he didn't show that he recogognized the proprietor. Bryant left more money than we needed for the lighter and left abruptly.",
       "image1":"./assets/portArthur/volvo.jpg",
       "image2":"",
       "zoom":"13"
@@ -64,7 +64,7 @@
       "coordinates":[-43.108038,147.864674],
       "id":5,
       "color": "rgb(209, 5, 5)",
-      "description":"11:45 am: Bryant arrived at the Seascape, a huesthouse owned by David and Sally Martin. The Martins bought the Seascape despite Bryant's father's attempt to buy the property, because they were able to get their finances together more quickly. Bryan shot and killed Mr. and Mrs. Martin. He took the keys to the property with him when he left.",
+      "description":"11:45 am: Bryant arrived at the Seascape, a huesthouse owned by David and Sally Martin. The Martins bought the Seascape despite Bryant's father's attempt to buy the property, because they were able to get their finances together more quickly. Bryant shot and killed Mr. and Mrs. Martin. He took the keys to the property with him when he left.",
       "image1":"./assets/portArthur/seascape.jpg",
       "image2":"",
       "zoom":"14"
@@ -108,7 +108,7 @@
       "coordinates":[-43.126435,147.849937],
       "id":9,
       "color": "rgb(84, 212, 240)",
-      "description":"On the way beck to the Seascape, Bryant stopped and killed a woman and her two children. At a tollbooth, he hijacked a car, killing all 4 of it's occupants. He drove to a service station. He forced the driver of a Toyota Corolla into the trunk of the BMW, and killed the woman in the car.",
+      "description":"On the way beck to the Seascape, Bryant stopped and killed a woman and her two children, the Mikacs (pictured below). At a tollbooth, he hijacked a car, killing all 4 of it's occupants. He drove to a service station. He forced the driver of a Toyota Corolla into the trunk of the BMW taking him as a hostage, and killed the woman in the car.",
       "image1":"./assets/portArthur/mikac.jpg",
       "image2":"",
       "zoom":"14"
@@ -120,7 +120,7 @@
       "coordinates":[-43.108038,147.864674],
       "id":10,
       "color": "rgb(209, 5, 5)",
-      "description":"2:00 pm: At the Seascape, Bryant forced Pears out of the car and into the house, handcuffing him to a railing. Police arrived at the Seascape and Bryant fired at them from inside of the house. During an 18 hour standoff, Bryant requested a helicopter to take him to the airport. He started a fire in the guest house, and eventually ran out with his clothes on fire. Police captured him and took him to the hospital. He was sentenced to life in prison and remains there to this day, despite multiple suicide attemts. In total, 35 people were murdered.",
+      "description":"2:00 pm: At the Seascape, Bryant forced the hostage out of the car and into the house, handcuffing him to a railing. Police arrived at the Seascape and Bryant fired at them from inside of the house. During an 18 hour standoff, Bryant requested a helicopter to take him to the airport. He started a fire in the guest house, and eventually ran out with his clothes on fire. Police captured him and took him to the hospital. The hostage was found dead. In total, 35 people were murdered.",
       "image1":"./assets/portArthur/seascapeFire.jpg",
       "image2":"",
       "zoom":"13"
