@@ -18,8 +18,8 @@ map.on("click", function() {
 });
 
 /* Initialize the SVG layer */
-// map._initPathRoot();
-L.svg().addTo(map);
+map._initPathRoot();
+// L.svg().addTo(map);
 /* We simply pick up the SVG from the map object */
 var svg = d3.select("#map").select("svg"),
   g = svg.append("g");

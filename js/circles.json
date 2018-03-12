@@ -1,160 +1,140 @@
-{
-  "objects": [
-    {
-      "circle": {
-        "title": "Martin Bryant, Murderer",
-        "coordinates": [-43.001533, 147.651459],
-        "id": 0,
-        "color": "black",
-        "description":
-          "Bryant's close friend and heiress to a lottery fortune had recently died and left him with his home. His father had also recently died of unnatural causes. He is beleived to have an IQ of 166.",
-        "image1": "./assets/portArthur/mbryant.jpeg",
-        "image2": "",
-        "zoom": "10"
-      }
-    },
-    {
-      "circle": {
-        "title": "Martin Bryant's House",
-        "coordinates": [-42.865016, 147.307676],
-        "id": 1,
-        "color": "rgb(232, 235, 83)",
-        "description":
-          "6:00 am: Martin Bryant woke up at his house, showered with his girlfriend, ate breakfast, and loaded a bag full of firearms into his car. \r Bryant inherited the large home from his close friend Mrs. Harvey, who died in a car crash while driving Bryant.",
-        "image1": "./assets/portArthur/mBryantHouse.jpeg",
-        "image2": "",
-        "zoom": "12"
-      }
-    },
-    {
-      "circle": {
-        "title": "Midway Point Newsagency",
-        "coordinates": [-42.774232, 147.536035],
-        "id": 2,
-        "color": "rgb(110, 45, 126)",
-        "description":
-          "10:30 am: Bryant drove his yellow Volvo to the news agency store and bought a cigarrette lighter. The proprietor noticed that his demeanor was unusual, since he usually exchanged pleasantries and didn't show that he recogognized the proprietor. Bryant left more money than we needed for the lighter and left abruptly.",
-        "image1": "./assets/portArthur/volvo.jpg",
-        "image2": "",
-        "zoom": "13"
-      }
-    },
-    {
-      "circle": {
-        "title": "Sorell Supermarket",
-        "coordinates": [-42.776529, 147.564319],
-        "id": 3,
-        "color": "rgb(106, 232, 168)",
-        "description":
-          "10:45 am: Bryant stopped at the Sorell supermarket and bought a bottle of tomato sauce. He walked around the supermarket with a large bag. The owner of the supermarket noticed the bag and therefore watched Bryant closely as he moved throughout the supermarket.",
-        "image1": "./assets/portArthur/Sorell.jpg",
-        "image2": "",
-        "zoom": "12"
-      }
-    },
-    {
-      "circle": {
-        "title": "Shell Station in Forcett",
-        "coordinates": [-42.817185, 147.674217],
-        "id": 4,
-        "color": "rgb(241, 34, 108)",
-        "description":
-          "11:00 am: Bryant stopped at the Shell station and bought a cup of coffee.",
-        "image1": "./assets/portArthur/shell.jpg",
-        "image2": "",
-        "zoom": "13"
-      }
-    },
-    {
-      "circle": {
-        "title": "Seascape Guesthouse Cottage",
-        "coordinates": [-43.108038, 147.864674],
-        "id": 5,
-        "color": "rgb(209, 5, 5)",
-        "description":
-          "11:45 am: Bryant arrived at the Seascape, a huesthouse owned by David and Sally Martin. The Martins bought the Seascape despite Bryant's father's attempt to buy the property, because they were able to get their finances together more quickly. Bryan shot and killed Mr. and Mrs. Martin. He took the keys to the property with him when he left.",
-        "image1": "./assets/portArthur/seascape.jpg",
-        "image2": "",
-        "zoom": "14"
-      }
-    },
-    {
-      "circle": {
-        "title": "Port Arthur Restaurant",
-        "coordinates": [-43.146289, 147.851488],
-        "id": 6,
-        "color": "rgb(22, 80, 56)",
-        "description":
-          "1:25 pm: Bryant arrived at the Broad Arrow Cafe, and after arguing with the security manager about which parking lot he could park in, he parked and walked into the cafe. He brought a large bag and a video camera. He ate a large lunch outside. Armed with a a Colt AR-15 SP1 Carbine with a Colt scope and one 30-round magazine Bryant killed 12 people and wounded 10 more in a span of 15-30 seconds.",
-        "image1": "./assets/portArthur/broadArrow.jpg",
-        "image2": "",
-        "zoom": "18"
-      }
-    },
-    {
-      "circle": {
-        "title": "Port Arthur Gift Shop",
-        "coordinates": [-43.145631, 147.850501],
-        "id": 7,
-        "color": "rgb(79, 0, 0)",
-        "description":
-          "Bryant moved into the gift shop killing 10 people and injuring 2 more. His 30 round magazine ran out as he aimed at another victim, saving that man's life. He reloaded and left the gift shop.",
-        "image1": "./assets/portArthur/giftshop.png",
-        "image2": "",
-        "zoom": "17"
-      }
-    },
-    {
-      "circle": {
-        "title": "Historic Site Parking Lot",
-        "coordinates": [-43.145248, 147.851295],
-        "id": 8,
-        "color": "rgb(86, 102, 242)",
-        "description":
-          "In the parking lot Bryant killed 4 more people, and injured 18, bringing the total to 26 killed and 18 injured.",
-        "image1": "./assets/portArthur/carpark.jpg",
-        "image2": "",
-        "zoom": "18"
-      }
-    },
-    {
-      "circle": {
-        "title": "Arthur Highway",
-        "coordinates": [-43.126435, 147.849937],
-        "id": 9,
-        "color": "rgb(84, 212, 240)",
-        "description":
-          "On the way beck to the Seascape, Bryant stopped and killed a woman and her two children. At a tollbooth, he hijacked a car, killing all 4 of it's occupants. He drove to a service station. He forced the driver of a Toyota Corolla into the trunk of the BMW, and killed the woman in the car.",
-        "image1": "./assets/portArthur/mikac.jpg",
-        "image2": "",
-        "zoom": "14"
-      }
-    },
-    {
-      "circle": {
-        "title": "Back at the Seascape",
-        "coordinates": [-43.108038, 147.864674],
-        "id": 10,
-        "color": "rgb(209, 5, 5)",
-        "description":
-          "2:00 pm: At the Seascape, Bryant forced Pears out of the car and into the house, handcuffing him to a railing. Police arrived at the Seascape and Bryant fired at them from inside of the house. During an 18 hour standoff, Bryant requested a helicopter to take him to the airport. He started a fire in the guest house, and eventually ran out with his clothes on fire. Police captured him and took him to the hospital. He was sentenced to life in prison and remains there to this day, despite multiple suicide attemts. In total, 35 people were murdered.",
-        "image1": "./assets/portArthur/seascapeFire.jpg",
-        "image2": "",
-        "zoom": "13"
-      }
-    },
-    {
-      "circle": {
-        "title": "Risdon Prison",
-        "coordinates": [-42.811674, 147.340935],
-        "id": 11,
-        "color": "rgb(209, 5, 5)",
-        "description":
-          "Martin Bryant was sentenced to 35 life sentences and remains incarcerated in Risdon Prison to this day. He maintained his innocence until soon before sentancing, when he plead guilty. He has attempted suicide multiple times while in prison, attacked nurses and other prisoners.",
-        "image1": "./assets/portArthur/risdon.jpeg",
-        "image2": "",
-        "zoom": "12"
-      }
+{"objects":[
+  {"circle":
+    {"title": "Martin Bryant, Murderer",
+      "coordinates":[-43.001533, 147.651459],
+      "id":0,
+      "color": "black",
+      "description":"Bryant's close friend and heiress to a lottery fortune had recently died and left him with his home. His father had also recently died of unnatural causes. He is beleived to have an IQ of 66.",
+      "image1":"./assets/portArthur/mbryant.jpeg",
+      "image2":"",
+      "zoom":"10"
+
     }
-  ]
-}
+  },
+  {"circle":
+    {"title": "Martin Bryant's House",
+      "coordinates":[-42.865016, 147.307676],
+      "id":1,
+      "color": "rgb(232, 235, 83)",
+      "description":"6:00 am: Martin Bryant woke up at his house, showered with his girlfriend, ate breakfast, and loaded a bag full of firearms into his car. \r Bryant inherited the large home from his close friend Mrs. Harvey, who died in a car crash while driving Bryant.",
+      "image1":"./assets/portArthur/mBryantHouse.jpeg",
+      "image2":"",
+      "zoom":"12"
+
+    }
+  },
+  {"circle":
+    {"title": "Midway Point Newsagency",
+      "coordinates":[-42.774232, 147.536035],
+      "id":2,
+      "color": "rgb(110, 45, 126)",
+      "description":"10:30 am: Bryant drove his yellow Volvo to the news agency store and bought a cigarrette lighter. The proprietor noticed that his demeanor was unusual, since he usually exchanged pleasantries, and also because he didn't show that he recogognized the proprietor. Bryant left more money than we needed for the lighter and left abruptly.",
+      "image1":"./assets/portArthur/volvo.jpg",
+      "image2":"",
+      "zoom":"13"
+
+    }
+  },
+  {"circle":
+    {"title": "Sorell Supermarket",
+      "coordinates":[-42.776529, 147.564319],
+      "id":3,
+      "color": "rgb(106, 232, 168)",
+      "description":"10:45 am: Bryant stopped at the Sorell supermarket and bought a bottle of tomato sauce. He walked around the supermarket with a large bag. The owner of the supermarket noticed the bag and therefore watched Bryant closely as he moved throughout the supermarket.",
+      "image1":"./assets/portArthur/Sorell.jpg",
+      "image2":"",
+      "zoom":"12"
+
+    }
+  },
+  {"circle":
+    {"title": "Shell Station in Forcett",
+      "coordinates":[-42.817185, 147.674217],
+      "id":4,
+      "color": "rgb(241, 34, 108)",
+      "description":"11:00 am: Bryant stopped at the Shell station and bought a cup of coffee.",
+      "image1":"./assets/portArthur/shell.jpg",
+      "image2":"",
+      "zoom":"13"
+
+    }
+  },
+  {"circle":
+    {"title": "Seascape Guesthouse Cottage",
+      "coordinates":[-43.108038,147.864674],
+      "id":5,
+      "color": "rgb(209, 5, 5)",
+      "description":"11:45 am: Bryant arrived at the Seascape, a huesthouse owned by David and Sally Martin. The Martins bought the Seascape despite Bryant's father's attempt to buy the property, because they were able to get their finances together more quickly. Bryant shot and killed Mr. and Mrs. Martin. He took the keys to the property with him when he left.",
+      "image1":"./assets/portArthur/seascape.jpg",
+      "image2":"",
+      "zoom":"14"
+    }
+  },
+  {"circle":
+    {"title": "Port Arthur Restaurant",
+      "coordinates":[-43.146289,147.851488],
+      "id":6,
+      "color": "rgb(22, 80, 56)",
+      "description":"1:25 pm: Bryant arrived at the Broad Arrow Cafe, and after arguing with the security manager about which parking lot he could park in, he parked and walked into the cafe. He brought a large bag and a video camera. He ate a large lunch outside. Armed with a a Colt AR-15 SP1 Carbine with a Colt scope and one 30-round magazine Bryant killed 12 people and wounded 10 more in a span of 15-30 seconds.",
+      "image1":"./assets/portArthur/broadArrow.jpg",
+      "image2":"",
+      "zoom":"18"
+    }
+  },
+  {"circle":
+    {"title": "Port Arthur Gift Shop",
+      "coordinates":[-43.145631,147.850501],
+      "id":7,
+      "color": "rgb(79, 0, 0)",
+      "description":"Bryant moved into the gift shop killing 10 people and injuring 2 more. His 30 round magazine ran out as he aimed at another victim, saving that man's life. He reloaded and left the gift shop.",
+      "image1":"./assets/portArthur/giftshop.png",
+      "image2":"",
+      "zoom":"17"
+    }
+  },
+  {"circle":
+    {"title": "Historic Site Parking Lot",
+      "coordinates":[-43.145248,147.851295],
+      "id":8,
+      "color": "rgb(86, 102, 242)",
+      "description":"In the parking lot Bryant killed 4 more people, and injured 18, bringing the total to 26 killed and 18 injured.",
+      "image1":"./assets/portArthur/carpark.jpg",
+      "image2":"",
+      "zoom":"18"
+    }
+  },
+  {"circle":
+    {"title": "Arthur Highway",
+      "coordinates":[-43.126435,147.849937],
+      "id":9,
+      "color": "rgb(84, 212, 240)",
+      "description":"On the way beck to the Seascape, Bryant stopped and killed a woman and her two children, the Mikacs (pictured below). At a tollbooth, he hijacked a car, killing all 4 of it's occupants. He drove to a service station. He forced the driver of a Toyota Corolla into the trunk of the BMW taking him as a hostage, and killed the woman in the car.",
+      "image1":"./assets/portArthur/mikac.jpg",
+      "image2":"",
+      "zoom":"14"
+    }
+  }
+  ,
+  {"circle":
+    {"title": "Back at the Seascape",
+      "coordinates":[-43.108038,147.864674],
+      "id":10,
+      "color": "rgb(209, 5, 5)",
+      "description":"2:00 pm: At the Seascape, Bryant forced the hostage out of the car and into the house, handcuffing him to a railing. Police arrived at the Seascape and Bryant fired at them from inside of the house. During an 18 hour standoff, Bryant requested a helicopter to take him to the airport. He started a fire in the guest house, and eventually ran out with his clothes on fire. Police captured him and took him to the hospital. The hostage was found dead. In total, 35 people were murdered.",
+      "image1":"./assets/portArthur/seascapeFire.jpg",
+      "image2":"",
+      "zoom":"13"
+    }
+  },
+  {"circle":
+    {"title": "Risdon Prison",
+      "coordinates":[-42.811674,147.340935],
+      "id":11,
+      "color": "rgb(209, 5, 5)",
+      "description":"Martin Bryant was sentenced to 35 life sentences and remains incarcerated in Risdon Prison to this day. He maintained his innocence until soon before sentancing, when he plead guilty. He has attempted suicide multiple times while in prison, attacked nurses and other prisoners.",
+      "image1":"./assets/portArthur/risdon.jpeg",
+      "image2":"",
+      "zoom":"12"
+    }
+  }
+]}
