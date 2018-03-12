@@ -134,7 +134,7 @@ c3.generate({
       max: 11,
       min: 1,
       label: {
-        text: "Gun Deaths/100 Population",
+        text: "Gun Deaths/100,000 Population",
         position: "outer-middle"
       }
     },
