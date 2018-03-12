@@ -9,14 +9,13 @@ let circlePos = 0;
 
 map.scrollWheelZoom.disable();
 
-map.on('click', function() {
+map.on("click", function() {
   if (map.scrollWheelZoom.enabled()) {
     map.scrollWheelZoom.disable();
-    }
-    else {
+  } else {
     map.scrollWheelZoom.enable();
-    }
-  });
+  }
+});
 
 /* Initialize the SVG layer */
 // map._initPathRoot();
@@ -24,7 +23,6 @@ L.svg().addTo(map);
 /* We simply pick up the SVG from the map object */
 var svg = d3.select("#map").select("svg"),
   g = svg.append("g");
-
 
 d3.json("js/circles.json", function(collection) {
   /* Add a LatLng object to each item in the dataset */
@@ -232,7 +230,7 @@ function addBtn() {
   }
 }
 
-function moveToNext () {
+function moveToNext() {
   d3.json("js/circles.json", function(collection) {
     collection.objects.forEach(function(d) {
       if (d.circle.id === currentCircleId + 1) {
@@ -249,4 +247,7 @@ function moveToNext () {
   // map.setView(d.circle.coordinates, d.circle.zoom)
 }
 
-d3.select("#slider3 svg").attr("viewBox", "0 0 960 100").attr("preserveAspectRatio", "xMinYMin")
+d3
+  .select("#slider3 svg")
+  .attr("viewBox", "0 0 960 100")
+  .attr("preserveAspectRatio", "xMinYMin");
