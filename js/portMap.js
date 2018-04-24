@@ -1,4 +1,4 @@
-var map = L.map("map").setView([-43.001533, 147.651459], 10);
+var map = L.map("map").setView([-43.001533, 147.651459], 9);
 mapLink = "<a href=\"http://openstreetmap.org\">OpenStreetMap</a>";
 L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; " + mapLink + " Contributors",
@@ -91,9 +91,9 @@ d3.json("js/circles.json", function(collection) {
 
 //////////
 
-var margin = { top: 50, right: 50, bottom: 50, left: 50 },
+var margin = { top: 50, right: 0, bottom: 50, left: 200 },
   width = 960 - margin.left - margin.right,
-  height = 100 - margin.bottom - margin.top;
+  height = 80 - margin.bottom - margin.top;
 
 var svg1 = d3
   .select("#slider3")

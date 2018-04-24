@@ -1,7 +1,7 @@
 #portMap {
   background-color: white;
   margin: 0;
-  font-size: 11px;
+  font-size: 12pt;
   height: 100vh;
 }
 
@@ -18,30 +18,43 @@
 .storyMap {
   display: flex;
   justify-content: space-around;
-  padding-top: 1.5rem;
-}
-
-.storyImage {
-  width: 20rem;
 }
 
 #storyCard {
   width: 40vw;
-  margin: 0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  /* border: 1px solid #0d47a1; */
+  border-radius: 5pt;
+  padding: .25rem
 }
 
 #storyDescription {
-  font-size: 1.2rem;
+  font-size: 1;
   font-family: 'PT Sans Narrow', sans-serif;
-  line-height: 1.5
+  line-height: 1.5;
+  padding-top: .5rem;
 }
 
 #storyTitle {
-  align-self: start;
+  font-size: 1.5rem;
+  text-align: left;
+  align-self: flex-start;
+  justify-self: flex-start
+}
+
+.storyImage {
+  width: auto;
+  height: 50vh;
+  padding: 0 .25rem;
+  align-self: center;
+  border-radius: 5pt;
+}
+
+#storyImage2 {
+  display: none
 }
 
 .d3-slider {
@@ -135,18 +148,15 @@ text {
   font-size: 1rem;
 }
 
-.intro {
-  padding: 1rem 0;
-}
-
 #slider3 {
   display: flex;
   justify-content: space-around;
 }
 
 #instruction {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
+  color: #0d47a1;
 }
 
 .slider {
@@ -158,7 +168,6 @@ text {
 #map {
   width: 55vw;
   height: 50vh;
-  margin-right: 3rem;
 }
 
 
@@ -168,24 +177,25 @@ text {
     padding: 1rem 1rem;
   }
 
+  .portWrapper svg {
+    margin-left: -6rem;
+  }
+
   .storyMap {
     display: flex;
     flex-flow: column-reverse;
     justify-content: space-around;
-    padding-top: 1rem;
-  }
-
-  .storyImage {
-    width: 6rem;
+    padding-top: .2rem;
   }
 
   #storyCard {
-    width: 100vw;
+    width: 80vw;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    padding-left: 1rem;
   }
 
   #storyCard h4 {
@@ -200,11 +210,15 @@ text {
   #storyDescription {
     width: 90vw;
     margin: 1rem 0rem;
-    font-size: .6rem;
+    font-size: 1rem;
   }
 
   #storyTitle {
     align-self: start;
+  }
+
+  .storyImage {
+    height: 15vh;
   }
 
   text {
@@ -213,13 +227,14 @@ text {
 
   .intro {
     font-size: .6rem;
-    padding: .5rem 0;
+    padding: .5rem 0 0 0;
   }
 
 
   #instruction {
     font-size: .8rem;
     text-align: center;
+    color: #0d47a1;
   }
 
   #map {
@@ -243,4 +258,7 @@ text {
     display: none;
   }
 
+}
+
+h3 {
 }
